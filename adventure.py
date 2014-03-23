@@ -5,22 +5,22 @@ import textwrap
 from itertools import count
 import jinja2
 
+
 def load(script_filename):
     script = open(script_filename, 'r').read().decode('utf-8')
     questions = script.split('\n\n')
     qs = {}
     for question in questions:
         try:
-            line = \
-                question.split('\n')
-            node_no = int(line[0].split(' ', 1)[0] \
-                .replace('.', ''))
+            line = question.split('\n')
+            node_no = int(line[0].split(' ', 1)[0].replace('.', ''))
             conflicts = []
             if len(line) >= 4:
                 conflicts = [int(x) for x in line[3].replace('.', ' ').split()]
             qs[node_no] = {'doctor_line': line[0].split(' ', 1)[1],
                            'patient_line': line[1],
-                           'options': [int(x) for x in line[2].replace('.', ' ').split()],
+                           'options': [int(x) for x in
+                                       line[2].replace('.', ' ').split()],
                            'conflicts': conflicts,
                            'id': node_no}
         except Exception as e:
@@ -40,17 +40,20 @@ def questions_to_state_diagram(q):
         edge [
         ];\n'''))
     for question in q.values():
-        dot.write((u'"node%i" [\n'
-                   u'label = <<table><tr><td>%i</td></tr>'
-                   u'<tr><td>doctor: %s</td></tr>'
-                   u'<tr><td>patient: %s</td></tr></table>>\n'
-                   u'shape = "record"\n];\n' % (
+        dot.write(textwrap.dedent((
+            u"""\
+            "node%i" [
+            label = <<table><tr><td>%i</td></tr><tr><td>doctor: %s</td></tr>\
+                     <tr><td>patient: %s</td></tr></table>>
+            shape = "record"
+            ];
+            """) % (
             question['id'], question['id'],
             '<br/>'.join(textwrap.wrap(question['doctor_line'])),
-            '<br/>'.join(textwrap.wrap(question['patient_line'])))) \
+            '<br/>'.join(textwrap.wrap(question['patient_line']))))
             .encode('utf-8'))
         for option in question['options']:
-            dot.write((u'"node%i" -> "node%i";\n' % (question['id'], option)) \
+            dot.write((u'"node%i" -> "node%i";\n' % (question['id'], option))
                       .encode('utf-8'))
     dot.write('}')
 
@@ -76,7 +79,7 @@ class QAndA(object):
                 if n > 3:
                     break
                 valid_options += [self.qs[opt]]
-        return valid_options    
+        return valid_options
 
     def choose(self, choice_idx):
         """Returns a list of states to go through"""
@@ -101,11 +104,11 @@ class QAndA(object):
         return qanda
 
 test_questions = {
-    0: { "options": [1, 2, 3, 4], },
-    1: { "options": [2, 3], },
-    2: { "options": [1,], },
-    3: { "options": [2, 1], },
-    4: { "options": [2, 3], },
+    0: {"options": [1, 2, 3, 4], },
+    1: {"options": [2, 3], },
+    2: {"options": [1], },
+    3: {"options": [2, 1], },
+    4: {"options": [2, 3], },
 }
 
 test_paths = [
@@ -138,9 +141,9 @@ def test_that_qanda_provides_correct_options():
         def check():
             q = QAndA(test_questions)
             assert navigate(q, path), "Navigating path %s failed" % str(path)
-            assert ids(q) == expected_options, "After navigating %s expected" \
-                   "options %s but got %s" % (str(path), str(expected_options),
-                                              str(ids(q)))
+            assert ids(q) == expected_options, "After navigating %s expected "\
+                "options %s but got %s" % (str(path), str(expected_options),
+                                           str(ids(q)))
         yield check
 
 
@@ -176,30 +179,35 @@ def text_adventure(qanda):
                 qanda.choose(int(choice) - 1)
                 break
             except Exception as e:
-                out.write("Invalid choice '%s' because %s\n" % (choice, str(e)))
+                out.write("Invalid choice '%s' because %s\n"
+                          % (choice, str(e)))
                 pass
         out.write('\n' + '-' * 80 + '\n')
 
 
 html_template = textwrap.dedent(u"""\
     <html>
-    <head>
-    <title>X-Files the Psychiatry Teaching Aid</title>
-    </head>
-    <body>
-    <video>{{current.id}}</video>
-    <dl>
-    <dt>Doctor</dt><dd>{{ current.doctor_line }}</dd></dt>
-    <dt>Patient</dt><dd>{{ current.patient_line }}</dd></dt>
-    </dl>
+      <head>
+        <title>X-Files the Psychiatry Teaching Aid</title>
+      </head>
+      <body>
+        <video>{{current.id}}</video>
+        <dl>
+          <dt>Doctor</dt><dd>{{ current.doctor_line }}</dd></dt>
+          <dt>Patient</dt><dd>{{ current.patient_line }}</dd></dt>
+        </dl>
 
-    <p>Choose:</p>
-    <ol>
-    {% for opt in options %}
-    <li><a href="?{{state}}&amp;choose={{loop.index0}}">{{ opt.doctor_line }}</a></li>
-    {% endfor %}
-    </ol>
-    </body>
+        <p>Choose:</p>
+        <ol>
+        {% for opt in options %}
+          <li>
+            <a href="?{{state}}&amp;choose={{loop.index0}}">
+              {{ opt.doctor_line }}
+            </a>
+          </li>
+        {% endfor %}
+        </ol>
+      </body>
     </html>""")
 
 
@@ -215,9 +223,11 @@ def web_adventure(qs):
         if 'choose' in request.args:
             qanda.choose(int(request.args['choose']))
         qanda.current()
+        state = '&amp;'.join(["%s=%s" % (key, value)
+                              for key, value in qanda.serialise().items()])
         return template.render(current=qanda.current(),
                                options=qanda.provide_options(),
-                               state='&amp;'.join([ "%s=%s" % (key, value) for key, value in qanda.serialise().items()]))
+                               state=state)
 
     app.debug = True
     app.run()

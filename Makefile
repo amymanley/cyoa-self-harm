@@ -1,6 +1,7 @@
 all :
 
 check :
+	pep8 adventure.py
 	nosetests -v adventure.py
 
 clean :
