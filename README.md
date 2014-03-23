@@ -3,10 +3,19 @@ with patients.
 
 Usage:
 
-    ./adventure.py [--web]
+    ./adventure.py [--web|--state]
 
-The default mode is as an interactive text adventure.  Pass the --web option to
-start a web-server and serve the Q and A session via the web.  The default
-address is [http://localhost:5000/].
+The default mode is as an interactive text adventure.  The script is stored in
+script.txt.
 
-The script is stored in script.txt.
+Options:
+
+    --web   - Start a web-server and serve the Q and A session via the web.  The
+              default address is [http://localhost:5000/].
+
+    --state - Write a state diagram out to state.dot.  This can be turned into
+              an SVG for viewing with:
+
+                  dot -Tsvg -ostate.svg state.dot
+
+

@@ -235,8 +235,11 @@ def web_adventure(qs):
 
 def main(argv):
     qs = load('script.txt')
-    if len(argv) > 1 and argv[1] == '--web':
-        web_adventure(qs)
+    if len(argv) > 1:
+        if argv[1] == '--web':
+            web_adventure(qs)
+        elif argv[1] == '--state':
+            questions_to_state_diagram(qs)
     else:
         qanda = QAndA(qs)
         text_adventure(qanda)
