@@ -58,6 +58,8 @@ def questions_to_state_diagram(q):
 class QAndA(object):
     def __init__(self, qs):
         self.qs = qs
+        for q in self.qs.keys():
+            self.qs[q]['id'] = q
         self.history = [0]
         self.excluded = []
 
@@ -97,6 +99,49 @@ class QAndA(object):
             for x in qanda.history:
                 qanda.excluded += qs[x].get('conflicts', [])
         return qanda
+
+test_questions = {
+    0: { "options": [1, 2, 3, 4], },
+    1: { "options": [2, 3], },
+    2: { "options": [1,], },
+    3: { "options": [2, 1], },
+    4: { "options": [2, 3], },
+}
+
+test_paths = [
+    # Tests have the form (path taken through questions, expected options):
+    ([], [1, 2, 3]),
+    ([1], [2, 3]),
+    ([3, 1], [2]),
+]
+
+
+def navigate(qanda, nodes):
+    for next_node in nodes:
+        chosen = False
+        for n, opt in zip(count(), qanda.provide_options()):
+            print "Checking ", n, opt
+            if opt['id'] == next_node:
+                qanda.choose(n)
+                chosen = True
+        if not chosen:
+            return False
+    return True
+
+
+def ids(q):
+    return [o['id'] for o in q.provide_options()]
+
+
+def test_that_qanda_provides_correct_options():
+    for path, expected_options in test_paths:
+        def check():
+            q = QAndA(test_questions)
+            assert navigate(q, path), "Navigating path %s failed" % str(path)
+            assert ids(q) == expected_options, "After navigating %s expected" \
+                   "options %s but got %s" % (str(path), str(expected_options),
+                                              str(ids(q)))
+        yield check
 
 
 text_template = textwrap.dedent(u"""\
@@ -156,6 +201,7 @@ html_template = textwrap.dedent(u"""\
     </ol>
     </body>
     </html>""")
+
 
 def web_adventure(qs):
     from flask import Flask, request
