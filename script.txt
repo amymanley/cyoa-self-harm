@@ -1,0 +1,786 @@
+0 Hello Miss Smith, my name is Dr Jones, I'm a junior doctor. I'd like to talk to you about what has brought you to hospital today.
+Thats's fine
+1  2  3
+
+1 It sounds like things have been really hard for you, perhaps you could tell me what's been happening
+There's just so many things, I don't know where to start
+2  4  5
+
+4 Take your time
+I just couldn’t take it anymore, it all just got to me, the bills, losing my job and then all this with my boyfriend. It’s just too much.
+2  6  7 
+
+7 You lost your job? 
+Yeah. I hated it anyway. I was working in the café at the bowling alley. Going home smelling of chip fat all the time is not nice but at least it paid the bills so I stuck with it and then my boss practically forced me to leave. 
+8  45  55
+
+8 Hmmm (nod)
+He just kept making things hard for me. Putting me on shifts noone wanted and making us do extra things, cleaning the kitchen and that which they used to have cleaners for. I told him what I thought of it and he said I could always leave so I walked out.
+9  10.  50
+
+10 That sounds like a difficult Situation.
+Yeah and now I’m screwed because I haven’t got much money
+11  44.  55
+
+11 So you’re finding it hard to make ends meet.
+I am and now with all this with my boyfriend I’ll probably have nowhere to live
+2   12   55
+
+12 Nowhere to live?
+Not if my boyfriend makes me leave. He broke up with me yesterday you see. 
+2   13  43
+
+13 He broke up with you?
+Yeah, you know, its all been a bit up and down with us but he seemed to mean it yesterday. I just don’t know what I’m going to do without him. It’s just so awful, and then all this. He was  so cross about the tablets too, he said I was stupid. I guess I was, I don’t know, I just couldn’t see another way. I hope he forgives me.  Just can’t bear to be there without him. 
+14.  15.  6
+
+14 That must have been really hard for you
+Yeah, well, you can see what happened.
+2  18.  27
+
+18 Is that when you took the overdose?
+Yeah
+54   2   29
+
+54 Perhaps you could talk me through what happened leading up to that…
+It was stupid really. I had a row with my boyfriend and he told me that I should leave.  I’d had a bit to drink and I was really upset.  I went upstairs to get my things.  I was in the bathroom and locked the door, then I saw the tablets and I felt so fed up that I took them.
+19.  110  20
+2
+
+19. What did you take?
+A 16 pack of paracetamol and some fluoxetine, about 6 of them. 
+20  60  25
+
+60 Do you know what dose the tablets were?
+The fluoxetine are 20mgs
+61. 20  65
+
+61 And the paracetamol?
+They’re just the normal ones that you can buy
+110  20  25
+
+20 And what did you think would happen?
+I don't know. I guess I didn't really have time to think it through, I hadn’t planned it, it just happened.  At the time I was thinking that I wanted to die but I didn't actually think that it'd kill me. I just needed a break.
+21.  22  25
+
+21. It sounds like you weren’t sure what you wanted to happen / How do you feel now?
+(no I didn’t, I guess I didn’t want my boyfriend to dump me, but)… l feel alright now. I don't want to die and I’m not going to do it again. I just wish I hadn't done it. What would my dog do without me? And my mum would be really upset if she knew
+22  23.  25
+
+22 So did you want to die or not?
+I thought that I did when took them but I don’t know
+23   26   122
+
+23 Had you left a note?
+No, I didn’t think I would actually die.
+24  25. 122
+
+24 Had you made any other preparations for the overdose?
+No, it was a spur of the moment thing.  I just had the tablets in the cabinet.  I hadn’t planned it to happen.
+25  122   123
+
+25 And what happened after you took them? / And then what happened? 
+My boyfriend came up stairs. He asked me what was happening and I told him what I’d done.  So he called an ambulance.
+26. 122  29
+
+26 Had you told him that you were thinking of harming yourself before that?
+No
+62  35  36
+
+62  Are you thinking about harming yourself again?
+No I don’t want to
+63.  27  99
+
+63. It sounds like it was really playing on your mind yesterday.  Has anything changed since then?
+Ive just thought it through. I don’t want to be dead.
+67.   35.   27
+
+67. You’ve clearly been through a lot,  Is there anything in particular that stopping you from harming yourself?
+Well, I’m hoping I might be able to make it up with my boyfriend, and there’s my dog. I don’t know what he’d do without me.  
+35.  68.  96
+
+35 You told me that you had been thinking about killing yourself when you took the tablets.  Is this how you feel a lot?
+No. I mean sometimes I do. I just feel overwhelmed and I can't face it. But most of the time I'm ok. I had been fine until the argument.  And I’m not thinking about hurting myself now.
+36. 29. 34
+
+29 It sounds like things were really getting on top of you. 
+Yeah, and I’ve never had very good self esteem.  Since I’ve lost my job and my boyfriend wants me out I feel like I’m no good at anything.
+30.  27   68
+
+68 sometimes people turn to alcohol when they’re struggling to cope.  Is that something you’re done?
+Not really. I’d had a bit to drink yesterday though
+27  99   98
+
+27 Do you see things getting better?
+I hope they will, I’d like to get a job and sort things out with my boyfriend but its hard to know what will happen with everything going on.
+28  36  30
+
+28 How do you feel about yourself?
+I feel stupid for taking the tablets. When things like this happen I just feel so pathetic. So ridiculous.
+74  30  69
+
+69 do you always feel like that?
+Not always. I just don’t know why I don’t think before doing things.
+9  36  99
+
+30 Is there anyone you can talk to about what you’re going through? 
+There’s my mum but she has her own problems. I’ve got some friends but we don’t normally talk about stuff like this.
+31.  34   71
+
+31 Tell me about your mum’s problems
+Well she’s having some problems with her neighbours, just being really noisy and stuff.
+32  33  34
+
+32 Go on…
+I really don’t see how this is relevant.
+33  33  34
+
+33 Sometimes the problems of those close to us can have an impact on us too /  that sounds frustrating /  Sorry I didn’t mean to pry.
+To be honest, and it might sound a bit selfish but I’ve got enough of my own problems at the moment without having to worry about hers too.
+34  36  71
+
+71 It sounds like you have a lot on your plate.
+Yes and its not like anyone wants to listen, my boyfriend was the only person I had and now I just feel terrible.
+96  34  35
+
+34 Have you told anyone else about your difficulties in the past? / Have you ever seen a psychiatrist in the past?
+I saw a psychiatrist after my last overdose, and it was really helpful talking things through. He referred me for group therapy which was also supportive but it was a couple of years ago now.
+40. 36. 72.  
+
+72 What sort of group therapy?
+It was about improving your mood
+64. 40. 36
+
+64. Was it CBT?
+I don’t know, I haven’t heard of that.
+36.  40. 41
+
+36 Have you ever tried to harm yourself before? / You mentioned that you’ve tried to harm yourself in the past?
+Yes, but Not for a long time.  When I was a teenager I used to cut myself but not so I’d die, just to relive some of the stress.  Then a couple of years ago I took an overdose just after I separated from my ex.
+37   96   38
+
+37 Could you tell me a bit more about that?
+My ex boyfriend was a real bastard but I still wanted to be with him. In the end he left me and went off with a friend of mine. I was really upset and I took the tablets then. I just didn’t see how I could go on without him./ took the tablets, paracetamol, about 40 of them. Then I got scared and told my friend who called the ambulance.
+38   40    66
+
+66. That sounds really upsetting
+Yeah, and I felt so embarrassed, having to go to hospital and everything
+38  39.  40
+
+38 Can you remember exactly when that was
+Umm 2 years ago, around October time.
+39.  40.  96
+
+39 Did you end up in hospital then? / Can you tell me about that?
+Um, Yeah, I took more last time. I needed to come in to get a drip to stop the paracetamol hurting my liver. I saw a psychiatrist then and it was really helpful talking things through.
+40.  41.  96
+
+40 Have you seen a psychiatrist at any other time? 
+No, but after my last overdose I did go for some group therapy which was helpful but that was a couple of years ago now.
+41.  96.   16
+
+41 Have you ever seen your GP about these difficulties?
+Yeah. He was the one who prescribed the antidepressant. It hasn’t made much difference though.
+65.  96.  16
+
+96 How is your mood generally?
+Up and down. Mostly I feel ok but with everything going on things have got a lot harder and I can get really angry and upset over little things.  I just can’t seem to control how rubbish I feel sometimes. One minute I’m ok and then the next I’m incredibly depressed. I’ve always had a bit of a short temper though.
+95.   16   91
+
+95 Is your mood worse at any particular time of day?
+No not really.  Sometimes in the evening when I’ve had a couple of drinks.
+99.    42.    98
+
+99 You mentioned that you’d had a bit to drink when you took the tablets yesterday. /How much had you drunk yesterday?
+Yeah we’d had a couple of bottles of wine between us.  I have to say, I probably had most of that. 
+98.    58    97
+
+58 Had you taken any drugs before the overdose?
+No, nothing like that.
+56.  59.  98
+
+98 How much do you normally drink.
+I don’t drink that often, only about once a week, but when I do I can drink a bit much, which I probably shouldn't. Maybe two bottles of wine and a couple of shots if I’m out.
+97  59. 127
+
+97 Do you think alcohol affects your mood?
+I don’t know. Last night I think it did. I probably wouldn’t have gone for the tablets if I hadn’t had a drink. I’m not an alcoholic, but maybe it's not great when I'm feeling like this.
+52. 59  127
+
+52 have you ever tried to cut down how much you're drinking
+No, it's not like I drink every day. 
+51. 48. 127
+
+51 do you get withdrawal symptoms?
+What do you mean?
+126  49.  47
+
+47 like a hangover.
+Yeah, sometimes I get a headache and feel tired after a night out.
+48. 59. 91
+
+49 Don't worry, you'd know if you'd had them.  
+Ok.
+48. 59. 90
+
+126 Sometimes people experience feeling sick, sweating and shaking after they've stopped drinking.
+I usually feel a bit hungover but not like that.
+48. 59. 91
+
+48 do you feel guilty about how much you drink.
+No, it's not like I'm an alcoholic
+47. 56. 90
+
+47 Do you feel annoyed when people criticise your drinking?
+people don't criticise my drinking. 
+59. 91  127
+
+127 I can get you some information about safe drinking if you like.
+Thanks, I'd appreciate that.
+59. 56. 90
+
+59 Do you ever use drugs that arn't prescribed for you.
+My mum sometimes used to give me some of her temazepam to help me sleep, it was really good actually, but she hasn't had them for a while now.
+56. 53. 90
+
+56 do you use illegal drugs?
+No. I smoked weed a few times when I was a teenager but that's all.
+53. 90  84
+
+53 or legal highs?
+No I don't use that sort of stuff.
+94. 90. 16
+
+90 Do you still feel motivated to do things?
+Not as much as I used to I guess. I just can’t face looking for another job at the moment.
+91. 44.  92
+
+91 Are there still things you enjoy?
+I like going out with my mates but I don’t get to as much, recently I just can’t afford to.
+44. 89  94
+
+89 Sometimes when people feel low, it affects their sleep, How are you sleeping?
+I’ve always found it hard to get to sleep and then I end up having to lie in.
+88. 87.  16
+
+88 How’s your appetite?
+Its normal
+87. 84  
+
+87 Are you still able to concentrate on things? 
+Yeah I like watching films
+94
+
+94 Have you ever felt very high in mood?
+Not really, my mood goes up and down but not very high.
+93 16
+
+93 Or like your thoughts are racing?
+No
+92 
+
+92 Do you feel you have any special powers or talents?
+Not really, I’m usually pretty useless at most things.
+86. 
+
+128 It sounds like you don't feel that good about yourself at the moment.
+FIXME
+84  16
+
+84 Sometimes, when people are stressed they start to experience unusual things.. . .
+hmm
+86.  82. 
+
+86 Do you ever feel like people are plotting against you?
+Sometimes I feel like the whole world is against me.
+
+85 Go on. . .
+Oh, just with everything always going wrong. But I know its just bad luck. I don’t think I’m in a conspiracy or anything. I’m not mad.
+
+83 Is that something which has happened to you? 
+I don’t know what you mean.
+
+82Are there ever times that you hear things that nobody else can hear?
+No
+
+81 Or do you ever see things that other people have said aren’t there? 
+No
+
+80 Do you ever hear voices?
+What, like your voice?
+
+79 No, I mean voices that other people can’t hear?
+No
+
+78 Do you think the TV or radio has a special message for you?
+No
+
+77 Do you ever feel like someone is taking thoughts from your mind?
+No
+
+76 Or putting them into your mind?
+No
+
+75 Or broadcasting them so other people can know what you’re thinking?
+No
+
+188 Are your parents still together?
+No, they’re divorced.
+
+189 How was your relationship with your mum? / What is your relationship with your mum like?
+190 We’ve always got on ok.  I used to be a bit of a daddys girl really until my parents separated.
+
+191 How old were you when that happened?
+Eleven.  I’d just started secondary school.
+
+192 What was that like?
+What do you mean? Them divorcing, or school?
+
+193 The divorce / Go on…
+Hmm, my parents used to argue a lot beforehand but no one wants to see their parents separate do they. I wanted to live with my dad but he moved in with this other woman and we could only visit.  I saw him a fair bit though, mostly at weekends until he moved away.
+
+194 He moved away?
+Yeah, he went to Spain a few years ago now.  I’ve been out there a couple of times but, I don’t know, he doesn’t bother to come to see me.  It’s his girlfriend.  She doesn’t want him seeing us.
+
+195 Tell me about his girlfriend.
+I don’t really know much about her, other than her being a homewrecker. Like I say she took my dad all the way to Spain to get away from us, so it’s not like we’re close, you know.
+
+196 What was life like for you growing up for you?
+Alright.
+
+197 Alright?
+Yeah, well my parents separated when I was 11.  I was always closer to my dad, so that was hard.
+
+198 You mentioned that your parents argued.  Were they ever violent to each other.
+No, nothing like that.
+
+199 Or to you?
+My mum smacked me a couple of times when I was a kid, but nothing else.
+
+200 Has anyone ever been violent towards you.  
+My ex-boyfriend was. But not otherwise.
+
+201 Your ex-boyfriend?
+Yeah, not the person who I’m with now but a previous guy.  He hit me a few times, but I was too scared to report it. I havn’t seen him since we broke up a couple of years ago now.  My current boyfriend would never do that.
+
+202 Have you ever been in trouble with the police?
+No
+
+203 Did anyone ever do anything sexual towards you that you didn’t want them to?
+I’ve never been raped or anything.  I guess there’s been a couple of times where I’ve been really drunk and done things that I wished I hadn’t but nothing that I didn’t agree to at the time.
+
+204 And what about school? How was school for you?
+School was alright.  I did alright in my GCSEs, went to college.
+
+205 How did you get on with the other kids?
+Fine, I had a couple of good mates
+
+206 We’re you ever bullied?
+Ummm, well there was one girl who used to pick on me.  Just after my dad left.  My mum couldn’t afford some of the stuff that other kids had. She used to call me names and that until I stood up for myself.
+
+207 You stood up for yourself?
+I hit her and then she never bothered me anymore.  
+
+208 How did you do in your exams?
+OK, I got 8 GCSEs mostly Bs and Cs and a D in French.  Then I went to college.
+
+209 How did that go?
+Well, I started doing A-Levels, but I got glandular fever in my first year so I couldn’t sit my exams.  I’d missed too much to catch up and I didn’t want to start again so I did a BTEC in media instead.
+
+210 What did you do after that?
+I really wanted to work in TV but it’s basically impossible without experience. So I ended up working in a sports bar, for like a month, but the manager was a complete pervert so I quit.
+
+211 Have you worked anywhere else since?
+Yeah, then I worked in a café, I was there for a couple of years, but that closed down. Then there was my most recent job, and I basically was fired
+
+212 Do you have any problems with your physical health?
+I had glandular fever when I was 16, that’s about it.
+
+213 Apart from glandular fever have you had any other health problems.  
+No, not really.
+
+214 Are you on any medication?
+Just the fluoxetine.
+
+215 Do you always remember to take them?
+Yeah I do.
+
+216 Do you take any contraceptives?
+No, I have the implant.
+
+217 Who are you living with at the moment?
+My boyfriend, but now he wants me out.
+
+218 Is there anyone else living with you?
+No.  Its just the two of us.
+
+219 Do you have much contact with the rest of your family?
+I see my younger sister occasionally, but she moved to London after she got married last year.   My older sister lives closer but we’ve never really got on.  
+
+220 Who else is in your family?
+Apart from my parents? There’s my two sisters.
+
+221 Do you have any children?
+No
+
+222 Has anyone in your family had any problems with their mood? 
+I think my mum had depression after dad left, but not apart from that.
+
+223 Or any other problems with their mental health?
+No
+
+224 Has anyone tried to harm themselves as far as you are aware?
+No
+
+225 Do you have a family history of suicide?
+No
+
+226 Is there any one in your family who has any other health problems.
+My nan died of cancer, but nothing else
+
+227 What sort of cancer?
+Stomach cancer
+
+228 How old was she?
+I don’t know, like eighty something.  It happened two years ago now.
+
+**************************************************************************
+229 And, is it your house?
+No. It’s my boyfreind’s.
+
+230 What do you plan to do? / You told me that you had been living with your boyfriend but he asked you to leave. Where are you planning to stay?
+I don’t know.  Really I want to get back with him.  Our relationship has always been a bit up and down, hopefully he’ll take me back.  I’m going to call him in a minute and explain.
+
+231 What if that doesn’t work out?
+Then I don’t know what I’ll do.  I have a friend who would probably put me up for a bit but I havn’t got any money for rent and I can’t stay forever.  I don’t know.
+
+232 How long have you been together?
+A year, on and off.
+
+233 Is this your first serious relationship?
+No, I’ve been in a few relationships in the past.  It always starts alright and then they turn out to be bastards. 
+
+234 Go on…
+I guess I’ve had three relationships that you might call serious.  One at college.  He left me for someone else.  Then I was with someone for a couple of years but he could be really aggressive.  Mostly shouting but he hit me a couple of times. I don’t know why I stayed with him but I did until he left me. And then there’s my boyfriend now.  
+
+
+
+
+
+
+
+Additional Questions Script
+
+55 That sounds really frustrating, and you said things weren’t going well with your boyfriend too/ what happened with your boyfriend
+I had a row with him yesterday evening and he told me that I should leave.  Thats why I took the tablets really. I’d had a bit to drink and I was really upset.  I went upstairs to get my things. I went to the bathroom and locked the door, then I saw the tablets and I felt so fed up that I took them.
+19  110
+
+6 It sounds like you've really been through a lot recently.
+Yes but I was ok until yesterday.
+2   18
+
+45 What do you plan to do? / You told me that you had been living with your boyfriend but he asked you to leave. Where are you planning to stay?
+I don’t know.  Really I want to get back with him.  Our relationship has always been a bit up and down, hopefully he’ll take me back.  
+46. 43
+
+43 Is it your house?
+No. It’s my boyfriend’s. I’m going to call him in a minute and explain.
+
+46 What if that doesn’t work out?
+Then I don’t know what I’ll do.  I have a friend who would probably put me up for a bit but I havn’t got any money for rent and I can’t stay forever.  I don’t know.
+
+16 How do you normally cope with stress?
+I don’t.  I can get pissed off really easily and upset and then I do stupid things.
+17  
+
+17 What do you mean by that?
+You know, I just act without thinking, shouting or hurting myself. Like yesterday
+2
+
+42 Sometimes people describe a feeling of emptiness, is that something you can relate to?
+Not really.
+
+9 It sounds like that was quite an impulsive decision. / Do you often do things without thinking through the consequences?
+Yeah, I’ve always been like that. Acting how I want to at the time and not really thinking through what will happen next.  Like yesterday.
+2.  
+
+15 Have you found it hard to maintain relationships?
+My relationships with men have always tended to be a bit up and down and people do let me down a lot more than other people it seems but I do have friends and things were going ok with my boyfriend, he can just be really unsupportive sometimes.  
+16   57
+
+57 I’m sorry to hear that
+It’s just with not working I haven’t got any money and I’ve borrowed some from my boyfriend. I’m going to pay it back but he was getting really pissed off about it yesterday that´s why we’ve been arguing so much.
+18  17
+
+44 Have you got financial concerns now?
+I’ve borrowed quite a lot from my boyfriend, about a grand, and with loosing my job its not like I can pay him back. That’s one of the main things that we’ve been arguing about.
+45
+
+50 Was that why you took the overdose?
+Maybe it was a part of it but to be honest I was ok until yesterday.
+2   18
+
+2 What happened yesterday? / Perhaps you could tell me what led to you coming to hospital today. /go on… /so what did happen?
+I took some tablets, too many tablets…. I’d a row with my boyfriend you see.  He said it was over and told me to leave.  I’d had a bit to drink and I was really upset.  I went to the bathroom to get some of my things together, locked the door, and then I saw the tablets and I felt so fed up that I took them.
+19.  110  27
+54
+
+Closed start questions
+
+3 I understand that you have taken an overdose. What did you take?
+Paracetamol
+
+102 How much?
+16  
+103  109
+
+103 What dose were they?
+Dunno
+104  
+
+104 Did you take anything else?
+Some antidepressants
+
+105 Which ones?
+Ummm I'm not sure. My GP prescribed them. I think it starts with an F
+
+106 Fluoxetine?
+I think so
+
+107 How much did you take?
+6
+
+108 What dose are they?
+20s I think
+
+65 how long have you been prescribed them?
+Um… A couple of years now
+
+109 When did you take them?
+Yesterday evening
+
+110 What time specifically?
+I’m not sure, about 9 ish I think
+
+111 Where were you?
+In the bathroom
+
+112 Were you alone when you took the tablets?
+Yeah
+
+113 Did you think anyone would find you?
+Dunno
+
+114 Was anyone else in the house?
+Well, my boyfriend was downstairs
+
+115 Did you try to stop anyone finding you?
+I locked the door
+
+116 Did you tell him or anyone else that you had taken the overdose?
+Yeah, after he found me
+
+
+117 Did you tell anyone that you intended to kill yourself?
+No
+--------------------------
+
+118 Why did you take the overdose?
+I don’t Know, I guess I wanted to die
+
+119 What did you think would happen?
+I’m not sure
+
+120 Did you think that you had taken enough to kill yourself?
+I don’t think so
+
+121 How sure were you that you wanted to die?
+I thought that I did when took them but I don’t know
+
+
+--------------------------------
+
+122 How do you feel now about the overdose?
+I feel stupid for taking it.
+123  23  25
+
+123 Do you regret it?
+Yes
+
+124 Did you think that the doctors would be able to save you?
+I suppose so. I didn’t think it’d kill me.
+
+125 How long did you plan the overdose?
+I didn’t really
+
+129. Are you depressed at the moment?
+Well, I feel pretty unhappy
+
+142. Are you feeling hopeless?
+Sometimes I do
+
+143. Can you tell me more about that?
+I’d like to get a job and sort things out with my boyfriend but its hard to know what will happen with everything going on.
+
+144. Has anyone in your family tried to kill themselves?
+No
+
+145. Are you employed?
+No, I lost my job
+
+146. When?
+Last month
+
+147. Are you abusing drugs or alcohol?
+No
+
+148. Do you suffer from chronic pain?
+I don’t think so
+
+175. Do you have much social support
+What’s that?
+
+176. Friends and family
+I had my boyfriend till yesterday and I’ve got a few mates and there’s my mum and sister
+
+177. People who support you.
+I don’t really talk to people about what’s going on.
+
+178. Are you living alone?
+I don’t know where I’ll be living now. My boyfriend kicked me out yesterday 
+
+179. Have you had any significant life events recently?
+What do you mean?
+
+149. Have there been any recent changes in your life?
+My boyfriend broke up with me.
+
+150. How has that affected you?
+I don’t know what I’m going to do.
+
+180 Anything else?
+I lost my job
+
+181 How has that affected you?
+I haven’t got much money
+
+182 Anything else?
+I don’t think so
+
+Closed additional statements
+
+164 and how much did you take of each tablet?
+Ummm 6
+
+163   of each?
+No 6 antidepressants and about 16 paracetamol
+
+162 Don’t worry, I’ll check with your GP
+OK
+
+
+Ending Sequences
+
+130. Thanks very much for speaking to me today, I know it can be difficult talking to someone you don’t know but I do appreciate you sharing this with me. 
+131. END
+
+
+132. Thank you for speaking to me.  Is there anything else you want to tell me?
+I don’t think so.
+131. END
+
+133 I think I’ve asked you everything I need to know.
+132. END
+
+131. Do you have any questions for me?
+No.
+END
+
+--------------------
+
+183 Ummm we’ve been speaking for quite a while now, do you think we’ll be able to finish soon?  I think the lunch trolley will be here in a minute.
+184  185.  131 
+
+184 Do you mind if I ask a couple more things?
+I suppose so.
+
+185 That’s fine, we’ll leave it there.
+Great
+
+186 The lunch trolley is here. So I’m going to get some food now ok.
+
+187 fair enough, I’ll come back later.
+
+
+--------------------
+
+134. Look, can we stop with the interrogation?
+
+135. Seriously, I’m fed up with this. I want to see someone else
+
+136. I need to ask these things to stop you killing yourself, So… 
+You’ve got to be kidding me. I really don’t see how distressing me is going to help. I want to see someone else.
+
+137. There’s no one else available so can we carry on?
+
+152. Ending sequence 2 (early termination)
+If that’s the case then I’m leaving. You may be asking appropriate questions, but with them being so closed, I’m finding this quite distressing and I can’t see how you can have built up an accurate impression of how I am. Perhaps try using more open questions next time you take a history.
+
+
+
+138. Sorry, I didn’t mean to make it seem like an interrogation. It sounds like things have been really hard for you. Perhaps you could tell me what’s been happening in your own words
+It’s just so much to deal with, losing my job, losing my boyfriend, and losing my home.  It’s too much to cope with.
+
+
+
+139. I’m just trying to understand what’s been going on for you.
+It just feels like you keep firing questions at me like your filling in a questionnaire or something.
+
+140. Clearly things have been really hard for you recently would you mind telling me how that’s affected you
+It’s made me feel pretty hopeless really.
+
+
+
+141. OK. I’ll see if anyone else is around
+
+151. Ending sequence 1 (early termination)
+Thanks, because you are asking appropriate questions, but with them being so closed, it’s hard for me to feel comfortable opening up to you.  I’m finding it quite frustrating and I can’t see how you can have built up an accurate impression of how I am. Perhaps try using more open questions next time you take a history.
+
+
+--------------------
+
+
+74 It was a really stupid thing to do, you could have died and you’ve wasted a lot of people’s time, including mine
+
+161. Ending sequence 11
+Given that a therapeutic relationship is associated with reductions in suicidal ideation, making comments like that is really unhelpful and inappropriate.  I’m leaving.
+
+
+
+--------------------
+
+
+
+153. Ending sequence 3
+Thank you for speaking to me. I thought it was going to be hard to open up to you with all those closed questions to start with but then I felt you got a better idea of how things were for me later on. Perhaps you could try using more open questions initially to build rapport at the start of the consultation next time.
+
+154. Ending sequence 4
+It’s been nice talking to you and I feel like I’ve got to talk a lot about the things which are important to me, which I’ve found helpful. I’m just a little concerned that letting me determine the flow of the consultation has meant that you might not have asked about a number of relevant things to evaluate the risk I pose to myself. Perhaps try asking about these next time.
+
+155. Ending sequence 5
+Thank you for speaking to me.  It’s been really helpful talking to you, I feel that I’ve had the opportunity to explain what happened and you asked relevant questions to establish the risk I pose to myself. What’s more you used the time wisely and followed a logical structure. Well done.
+
+156. Ending sequence 6
+Thank you for speaking to me.  It’s been really helpful talking to you, I feel that I’ve had the opportunity to explain what happened and you asked relevant questions to establish the risk I pose to myself. You did ask a few questions which were less closely related to the task so next time you could try to complete the task in slightly shorter time constraints. But overall that was really good.
+
+157. Ending sequence 7
+Thank you for speaking to me. You made me feel comfortable talking and you got a good idea of the overdose. Just don’t forget to ask about other risk factors.  Perhaps you could practice this next time you take a history.
+
+158. Ending sequence 8
+You made me feel comfortable and asked about a number of risk factors which may predispose to self-harm. There were a few which you missed so perhaps focus on asking these next time you take a history.
+
+159. Ending sequence 9
+Thank you for speaking to me, I feel that I’ve had the opportunity to explain what happened and you asked relevant questions to establish the risk I pose to myself.  We have been talking for quite some time though, which is fine in settings where you want a more rounded history, but don’t forget the task in hand. Perhaps try focusing on establishing risk under time constraints to check you remember to ask the most relevant questions.
+
+160. Ending sequence 10
+We’ve been talking for some time now and I feel like I’ve given you a lot of information. Lots of the questions you asked were important for establishing a more rounded history, but don’t forget the task in hand. Perhaps try focusing on establishing the risk I pose to myself next time.

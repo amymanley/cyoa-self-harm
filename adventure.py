@@ -1,0 +1,190 @@
+#!/usr/bin/python
+from pprint import pprint
+import sys
+import textwrap
+from itertools import count
+import jinja2
+
+def load(script_filename):
+    script = open(script_filename, 'r').read().decode('utf-8')
+    questions = script.split('\n\n')
+    qs = {}
+    for question in questions:
+        try:
+            line = \
+                question.split('\n')
+            node_no = int(line[0].split(' ', 1)[0] \
+                .replace('.', ''))
+            conflicts = []
+            if len(line) >= 4:
+                conflicts = [int(x) for x in line[3].replace('.', ' ').split()]
+            qs[node_no] = {'doctor_line': line[0].split(' ', 1)[1],
+                           'patient_line': line[1],
+                           'options': [int(x) for x in line[2].replace('.', ' ').split()],
+                           'conflicts': conflicts,
+                           'id': node_no}
+        except Exception as e:
+            print "Ignoring Invalid question:\n", question, "because", str(e)
+    return qs
+
+
+def questions_to_state_diagram(q):
+    dot = open('states.dot', 'w')
+    dot.write('digraph g {')
+    dot.write(textwrap.dedent(
+        '''\
+        node [
+        fontsize = "8"
+        shape = "ellipse"
+        ];
+        edge [
+        ];\n'''))
+    for question in q.values():
+        dot.write((u'"node%i" [\n'
+                   u'label = <<table><tr><td>%i</td></tr>'
+                   u'<tr><td>doctor: %s</td></tr>'
+                   u'<tr><td>patient: %s</td></tr></table>>\n'
+                   u'shape = "record"\n];\n' % (
+            question['id'], question['id'],
+            '<br/>'.join(textwrap.wrap(question['doctor_line'])),
+            '<br/>'.join(textwrap.wrap(question['patient_line'])))) \
+            .encode('utf-8'))
+        for option in question['options']:
+            dot.write((u'"node%i" -> "node%i";\n' % (question['id'], option)) \
+                      .encode('utf-8'))
+    dot.write('}')
+
+
+class QAndA(object):
+    def __init__(self, qs):
+        self.qs = qs
+        self.history = [0]
+        self.excluded = []
+
+    def current(self):
+        return self.qs[self.history[-1]]
+
+    def provide_options(self):
+        valid_options = []
+        n = 0
+        for opt in self.current()['options']:
+            if opt not in self.history and opt not in self.excluded \
+                    and opt in self.qs:
+                n += 1
+                if n > 3:
+                    break
+                valid_options += [self.qs[opt]]
+        return valid_options    
+
+    def choose(self, choice_idx):
+        """Returns a list of states to go through"""
+        opt_list = self.provide_options()
+        if choice_idx >= len(opt_list):
+            raise RuntimeError("No option %i" % choice_idx)
+        self.excluded += self.current().get('conflicts', [])
+        self.history += [opt_list[choice_idx]['id']]
+
+    def serialise(self):
+        return {
+            'history': ','.join([str(x) for x in self.history]),
+        }
+
+    @staticmethod
+    def deserialize(qs, data):
+        qanda = QAndA(qs)
+        if 'history' in data:
+            qanda.history = [int(x) for x in data['history'].split(',')]
+            for x in qanda.history:
+                qanda.excluded += qs[x].get('conflicts', [])
+        return qanda
+
+
+text_template = textwrap.dedent(u"""\
+    Doctor:
+        {{ current.doctor_line|wordwrap|indent }}
+
+    Patient:
+        {{ current.patient_line|wordwrap|indent }}
+
+    Choose:
+    {% for opt in options %}
+    {{loop.index}}.  {{opt.doctor_line|wordwrap|indent}}
+    {% endfor %}
+
+    """)
+
+
+def text_adventure(qanda):
+    template = jinja2.Template(text_template)
+    out = sys.stdout
+
+    while True:
+        out.write(template.render(
+            current=qanda.current(),
+            options=qanda.provide_options()))
+
+        while True:
+            try:
+                choice = raw_input('Choose: ')
+                if choice.startswith('q'):
+                    return
+                qanda.choose(int(choice) - 1)
+                break
+            except Exception as e:
+                out.write("Invalid choice '%s' because %s\n" % (choice, str(e)))
+                pass
+        out.write('\n' + '-' * 80 + '\n')
+
+
+html_template = textwrap.dedent(u"""\
+    <html>
+    <head>
+    <title>X-Files the Psychiatry Teaching Aid</title>
+    </head>
+    <body>
+    <video>{{current.id}}</video>
+    <dl>
+    <dt>Doctor</dt><dd>{{ current.doctor_line }}</dd></dt>
+    <dt>Patient</dt><dd>{{ current.patient_line }}</dd></dt>
+    </dl>
+
+    <p>Choose:</p>
+    <ol>
+    {% for opt in options %}
+    <li><a href="?{{state}}&amp;choose={{loop.index0}}">{{ opt.doctor_line }}</a></li>
+    {% endfor %}
+    </ol>
+    </body>
+    </html>""")
+
+def web_adventure(qs):
+    from flask import Flask, request
+    import jinja2
+    app = Flask(__name__)
+    template = jinja2.Template(html_template)
+
+    @app.route("/")
+    def start():
+        qanda = QAndA.deserialize(qs, request.args)
+        if 'choose' in request.args:
+            qanda.choose(int(request.args['choose']))
+        qanda.current()
+        return template.render(current=qanda.current(),
+                               options=qanda.provide_options(),
+                               state='&amp;'.join([ "%s=%s" % (key, value) for key, value in qanda.serialise().items()]))
+
+    app.debug = True
+    app.run()
+
+
+def main(argv):
+    qs = load('script.txt')
+    if len(argv) > 1 and argv[1] == '--web':
+        web_adventure(qs)
+    else:
+        qanda = QAndA(qs)
+        text_adventure(qanda)
+    return 0
+
+if __name__ == '__main__':
+    sys.exit(main(sys.argv))
