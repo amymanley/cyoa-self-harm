@@ -7,8 +7,11 @@
 <p>Choose:</p>
 <ol>
   <li *ngFor='#opt of available_choices()'>
-    <a (click)="choose_option(opt)">
+    <a *ngIf="script[opt]" (click)="choose_option(opt)">
       {{ script[opt].doctor_line }}
     </a>
+    <div *ngIf="!script[opt]">
+        ERROR: Video {{opt}} is unknown
+    </div>
   </li>
 </ol>
