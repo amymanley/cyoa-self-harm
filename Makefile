@@ -14,3 +14,9 @@ states.svg : states.dot
 	dot -Tsvg -o $@ $<
 
 .PHONY : all check clean
+
+webapp/app/script.ts : script.txt adventure.py Makefile
+	./adventure.py --json
+	printf "export const script = " >$@
+	cat script.json >>$@
+	printf ";" >>$@

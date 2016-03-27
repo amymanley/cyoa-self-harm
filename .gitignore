@@ -3,3 +3,4 @@ script.yaml
 states.dot
 states.svg
 *.pyc
+webapp/app/script.ts
