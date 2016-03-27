@@ -21,11 +21,11 @@ function parse_list(list)
             out[line['Item']] = {
                 doctor_line: line['Dr'],
                 patient_line: line['Patient'],
-                conflicts: line['Exclude Items'],
+                conflicts: line['Exclude Items'].split(/\s+/),
                 options: [
-                    line['Option 1 list'].split(/\s+/),
-                    line['Option 2 list'].split(/\s+/),
-                    line['Option 3 list'].split(/\s+/)
+                    line['Option 1 list'].split(/\s+/).filter(x => x),
+                    line['Option 2 list'].split(/\s+/).filter(x => x),
+                    line['Option 3 list'].split(/\s+/).filter(x => x)
                 ]
             };
         } catch (ex) {
@@ -34,6 +34,16 @@ function parse_list(list)
         }
     });
     return out;
+}
+
+function shift_option(opts, order)
+{
+    for (var i = 0; i < order.length; i++) {
+        if (opts[i].length > 0) {
+            return [opts[i].shift()];
+        }
+    }
+    return [];
 }
 
 @Component({
@@ -61,15 +71,17 @@ export class AppComponent {
     current: string;
     script;
     choices;
+    excludes;
     use_gdocs;
     constructor(private http: Http) {
         this.use_gdocs = true;
         this.choices = [];
+        this.excludes = [];
         this.script = {
             "0": {
                 "doctor_line": "Loading...",
                 "patient_line": "Loading...",
-                "options": []
+                "options": [[], [], []]
             }};
         this.current = "0";
 
@@ -97,10 +109,24 @@ export class AppComponent {
     }
     choose_option(opt_id) {
         this.choices.push(opt_id);
+        this.excludes.push(opt_id);
+        this.excludes.concat(this.script[this.current].conflicts);
         this.current = opt_id;
     }
     available_choices() {
-        var out = [].concat.apply([], this.script[this.current].options);
+        var out = [];
+        var opts = [[], [], []];
+
+        // Exclude the options that we've seen:
+        for (var i = 0; i < 3; i++) {
+            opts[i] = this.script[this.current].options[i].filter(
+                x => this.excludes.indexOf(x) < 0);
+        }
+
+        out = out.concat(shift_option(opts, [0, 2, 1]));
+        out = out.concat(shift_option(opts, [1, 0, 2]));
+        out = out.concat(shift_option(opts, [2, 0, 1]));
+
         return out;
     };
 }
