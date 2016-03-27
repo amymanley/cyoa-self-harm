@@ -1,6 +1,4 @@
-script.json
-script.yaml
-states.dot
-states.svg
-*.pyc
-webapp/app/script.ts
+typings/
+node_modules/
+*.js
+*.js.map
