@@ -1,10 +1,13 @@
 #!/usr/bin/python
-from pprint import pprint
+
+import json
 import sys
 import textwrap
 from itertools import count
-import jinja2
+from pprint import pprint
 
+import jinja2
+import yaml
 
 def load(script_filename):
     script = open(script_filename, 'r').read().decode('utf-8')
@@ -12,17 +15,17 @@ def load(script_filename):
     qs = {}
     for question in questions:
         try:
+            q = {}
             line = question.split('\n')
             node_no = int(line[0].split(' ', 1)[0].replace('.', ''))
             conflicts = []
+            q['doctor_line'] = line[0].split(' ', 1)[1]
+            q['patient_line'] = line[1]
+            q['options'] = [int(x) for x in line[2].replace('.', ' ').split()]
             if len(line) >= 4:
-                conflicts = [int(x) for x in line[3].replace('.', ' ').split()]
-            qs[node_no] = {'doctor_line': line[0].split(' ', 1)[1],
-                           'patient_line': line[1],
-                           'options': [int(x) for x in
-                                       line[2].replace('.', ' ').split()],
-                           'conflicts': conflicts,
-                           'id': node_no}
+                q['conflicts'] = [
+                    int(x) for x in line[3].replace('.', ' ').split()]
+            qs[node_no] = q
         except Exception as e:
             print "Ignoring Invalid question:\n", question, "because", str(e)
     return qs
@@ -240,6 +243,15 @@ def main(argv):
             web_adventure(qs)
         elif argv[1] == '--state':
             questions_to_state_diagram(qs)
+        elif argv[1] == '--yaml':
+            with open('script.yaml', 'w') as f:
+                yaml.safe_dump(qs, f, encoding='utf-8', indent=4,
+                               allow_unicode=True)
+        elif argv[1] == '--json':
+            with open('script.json', 'w') as f:
+                f.write(
+                    json.dumps(qs, encoding='utf-8', indent=4,
+                               ensure_ascii=False).encode('utf-8'))
     else:
         qanda = QAndA(qs)
         text_adventure(qanda)

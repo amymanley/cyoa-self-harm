@@ -1,3 +1,5 @@
+script.json
+script.yaml
 states.dot
 states.svg
 *.pyc
