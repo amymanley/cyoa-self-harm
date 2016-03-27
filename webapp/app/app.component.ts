@@ -32,7 +32,24 @@ function parse_csv(text)
 
 @Component({
     selector: 'my-app',
-    templateUrl: 'app/question.html'
+    template: `
+        <video></video>
+        <dl>
+          <dt>Doctor</dt><dd>{{ script[current].doctor_line }}</dd>
+          <dt>Patient</dt><dd>{{ script[current].patient_line }}</dd>
+        </dl>
+
+        <p>Choose:</p>
+        <ol>
+          <li *ngFor='#opt of available_choices()'>
+            <a *ngIf="script[opt]" (click)="choose_option(opt)">
+              {{ script[opt].doctor_line }}
+            </a>
+            <div *ngIf="!script[opt]">
+                ERROR: Video {{opt}} is unknown
+            </div>
+          </li>
+        </ol>`
 })
 export class AppComponent {
     current: string;
