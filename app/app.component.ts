@@ -90,10 +90,10 @@ export class AppComponent {
             Tabletop.init( {
                 key: '1IvHzhdow5H2pAHgFk59NbZ0KKxKijxquTQvfUAxgno0',
                 callback: function(data, tabletop) {
-                    comp.script = parse_list(data);
+                    console.log(data);
+                    comp.script = parse_list(data.Sheet1.elements);
                     console.log(comp.script);
-                },
-                simpleSheet: true } )
+                }});
         } else {
             this.http.get('script.csv')
               .map((res:Response) => parse_csv(res.text()))
