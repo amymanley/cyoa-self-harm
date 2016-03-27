@@ -1,4 +1,4 @@
-Item,Doctor Says,Patient Says,Exclude Items,Option 1 list,Option 2 list,Option 3 list
+Item,Dr,Patient,Exclude Items,Option 1 list,Option 2 list,Option 3 list
 0,Hello,Goodbye,,1,2B,3
 1,Say 1,Respond 1,,4 44 67 6,149,2B 30 217 36A 68 96 34B 212 222 84 196 
 4,Say 2,Respond 2,,7 10 11 44 57 6 14,55B,50 36A 68 96 30 217 34B 212 222 84 196 

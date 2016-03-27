@@ -6,15 +6,21 @@ import {Http, Response} from 'angular2/http';
 import 'rxjs/Rx';
 
 declare var Papa: any;
+declare var Tabletop: any;
 
 function parse_csv(text)
 {
+    return parse_list(Papa.parse(text, {header: true}).data)
+}
+
+function parse_list(list)
+{
     var out = {};
-    Papa.parse(text, {header: true}).data.forEach(function (line) {
+    list.forEach(function (line) {
         try {
             out[line['Item']] = {
-                doctor_line: line['Doctor Says'],
-                patient_line: line['Patient Says'],
+                doctor_line: line['Dr'],
+                patient_line: line['Patient'],
                 conflicts: line['Exclude Items'],
                 options: [
                     line['Option 1 list'].split(/\s+/),
@@ -53,9 +59,11 @@ function parse_csv(text)
 })
 export class AppComponent {
     current: string;
-    script: {};
+    script;
     choices;
+    use_gdocs;
     constructor(private http: Http) {
+        this.use_gdocs = true;
         this.choices = [];
         this.script = {
             "0": {
@@ -64,15 +72,28 @@ export class AppComponent {
                 "options": []
             }};
         this.current = "0";
-        this.http.get('script.csv')
-          .map((res:Response) => parse_csv(res.text()))
-          .subscribe(
-            data => {
-                console.log(data);
-                this.script = data; },
-            err => console.error(err),
-            () => console.log('done')
-          );
+
+        if (this.use_gdocs) {
+            var comp = this;
+            Tabletop.init( {
+                key: '1IvHzhdow5H2pAHgFk59NbZ0KKxKijxquTQvfUAxgno0',
+                callback: function(data, tabletop) {
+                    comp.script = parse_list(data);
+                    console.log(comp.script);
+                },
+                simpleSheet: true } )
+        } else {
+            this.http.get('script.csv')
+              .map((res:Response) => parse_csv(res.text()))
+              .subscribe(
+                data => {
+                    this.script = data;
+                    console.log(this.script);
+                },
+                err => console.error(err),
+                () => console.log('done')
+              );
+        }
     }
     choose_option(opt_id) {
         this.choices.push(opt_id);

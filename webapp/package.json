@@ -17,6 +17,7 @@
     "papaparse": "4.1",
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.2",
+    "tabletop": "1.4.2",
     "zone.js": "0.6.6"
   },
   "devDependencies": {
