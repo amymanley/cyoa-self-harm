@@ -15,22 +15,22 @@ function parse_csv(text)
 function parse_list(list)
 {
     var out = {};
-    list.forEach(function (line) {
+    list.forEach(function (row) {
         try {
-            out[line['Item']] = {
-                doctor_line: line['Dr'],
-                patient_line: line['Patient'],
-                conflicts: line['Exclude Items'].split(/\s+/),
+            out[row['Item']] = {
+                doctor_line: row['Dr'],
+                patient_line: row['Patient'],
+                conflicts: row['Exclude Items'].split(/\s+/),
                 options: [
-                    line['Option 1 list'].split(/\s+/).filter(x => x),
-                    line['Option 2 list'].split(/\s+/).filter(x => x),
-                    line['Option 3 list'].split(/\s+/).filter(x => x)
+                    row['Option 1 list'].split(/\s+/).filter(x => x),
+                    row['Option 2 list'].split(/\s+/).filter(x => x),
+                    row['Option 3 list'].split(/\s+/).filter(x => x)
                 ],
-                exit: (line['Force feedback'] == "End"),
-                end: (!!line['Force feedback'])
+                exit: (row['Force feedback'] == "End"),
+                end: (!!row['Force feedback'])
             };
         } catch (ex) {
-            console.log("Couldn't parse line " + line['Item'] + ": "
+            console.log("Couldn't parse row " + row['Item'] + ": "
                         + ex.message);
         }
     });
