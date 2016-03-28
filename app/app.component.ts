@@ -36,6 +36,25 @@ function spreadsheet_to_questions(list)
     });
     return out;
 }
+function spreadsheet_to_areas(sheet)
+{
+    console.log(sheet);
+    var out = [];
+    sheet.forEach(function (row) {
+        try {
+            var name = row[0];
+            var in_list = [];
+            for (var i=1; row[i]; i++) {
+                in_list.push(row[i].split(/\s+/).filter(x => x));
+            }
+            out.push({name: name, in_list: in_list});
+        } catch (ex) {
+            console.log("Couldn't parse row " + row['Item'] + ": "
+                        + ex.message);
+        }
+    });
+    return out;
+}
 
 function shift_option(opts, order)
 {
@@ -81,6 +100,13 @@ function shift_option(opts, order)
           This consulation is now over <a (click)="receive_feedback()">Receive
           Feedback</a>
         </div>
+        <div *ngIf='feedback'>
+       <li> Here's how you did </li>
+        <li> You covered these areas well: </li>
+        <li> You could have explored these areas further </li>
+
+        </div>
+
         `
 })
 export class AppComponent {
@@ -89,10 +115,15 @@ export class AppComponent {
     choices;
     excludes;
     use_gdocs;
+    feedback;
+    key_areas;
+    areas_covered;
+    areas_not_covered;
     constructor(private http: Http) {
         this.use_gdocs = true;
         this.choices = [];
         this.excludes = [];
+        this.key_areas = [];
         this.script = {
             "0": {
                 "doctor_line": "Loading...",
@@ -108,7 +139,9 @@ export class AppComponent {
                 callback: function(data, tabletop) {
                     console.log(data);
                     comp.script = spreadsheet_to_questions(data.Sheet1.elements);
+                    comp.key_areas = spreadsheet_to_areas(data.KeyAreas.toArray());
                     console.log(comp.script);
+                    console.log(comp.key_areas);
                 }});
         } else {
             this.http.get('script.csv')
@@ -149,5 +182,6 @@ export class AppComponent {
         return Object.keys(this.script).filter(x => this.script[x].exit);
     }
     receive_feedback() {
+        this.feedback=true
     }
 }
