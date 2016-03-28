@@ -9,10 +9,10 @@ declare var Tabletop: any;
 
 function parse_csv(text)
 {
-    return parse_list(Papa.parse(text, {header: true}).data)
+    return spreadsheet_to_questions(Papa.parse(text, {header: true}).data)
 }
 
-function parse_list(list)
+function spreadsheet_to_questions(list)
 {
     var out = {};
     list.forEach(function (row) {
@@ -107,7 +107,7 @@ export class AppComponent {
                 key: '1IvHzhdow5H2pAHgFk59NbZ0KKxKijxquTQvfUAxgno0',
                 callback: function(data, tabletop) {
                     console.log(data);
-                    comp.script = parse_list(data.Sheet1.elements);
+                    comp.script = spreadsheet_to_questions(data.Sheet1.elements);
                     console.log(comp.script);
                 }});
         } else {
