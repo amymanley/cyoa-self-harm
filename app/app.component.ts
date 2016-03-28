@@ -26,7 +26,9 @@ function parse_list(list)
                     line['Option 1 list'].split(/\s+/).filter(x => x),
                     line['Option 2 list'].split(/\s+/).filter(x => x),
                     line['Option 3 list'].split(/\s+/).filter(x => x)
-                ]
+                ],
+                exit: (line['Force feedback'] == "End"),
+                end: (!!line['Force feedback'])
             };
         } catch (ex) {
             console.log("Couldn't parse line " + line['Item'] + ": "
@@ -55,17 +57,31 @@ function shift_option(opts, order)
           <dt>Patient</dt><dd>{{ script[current].patient_line }}</dd>
         </dl>
 
-        <p>Choose:</p>
-        <ol>
-          <li *ngFor='#opt of available_choices()'>
-            <a *ngIf="script[opt]" (click)="choose_option(opt)">
-              {{ script[opt].doctor_line }}
-            </a>
-            <div *ngIf="!script[opt]">
-                ERROR: Video {{opt}} is unknown
-            </div>
-          </li>
-        </ol>`
+        <div *ngIf='current && !script[current].end'>
+          <p>Choose:</p>
+          <ol>
+            <li *ngFor='#opt of available_choices()'>
+              <a *ngIf="script[opt]" (click)="choose_option(opt)">
+                {{ script[opt].doctor_line }}
+              </a>
+              <div *ngIf="!script[opt]">
+                  ERROR: Video {{opt}} is unknown
+              </div>
+            </li>
+          </ol>
+          Or end the consultation:
+          <ol>
+              <li *ngFor='#opt of exit_questions()'>
+                  <a *ngIf="script[opt]" (click)="choose_option(opt)">
+                      {{ script[opt].doctor_line }}
+                  </a>
+              </li>
+          </ol>
+        </div>
+        <div *ngIf='current && script[current].end'>
+          This consulation is now over
+        </div>
+        `
 })
 export class AppComponent {
     current: string;
@@ -129,4 +145,7 @@ export class AppComponent {
 
         return out;
     };
+    exit_questions() {
+        return Object.keys(this.script).filter(x => this.script[x].exit);
+    }
 }
