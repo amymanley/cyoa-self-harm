@@ -1,6 +1,5 @@
 import {Component} from 'angular2/core';
 
-import { script } from './script';
 import {Http, Response} from 'angular2/http';
 
 import 'rxjs/Rx';
