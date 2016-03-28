@@ -79,7 +79,8 @@ function shift_option(opts, order)
           </ol>
         </div>
         <div *ngIf='current && script[current].end'>
-          This consulation is now over
+          This consulation is now over <a (click)="receive_feedback()">Receive
+          Feedback</a>
         </div>
         `
 })
@@ -147,5 +148,7 @@ export class AppComponent {
     };
     exit_questions() {
         return Object.keys(this.script).filter(x => this.script[x].exit);
+    }
+    receive_feedback() {
     }
 }
