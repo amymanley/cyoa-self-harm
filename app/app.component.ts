@@ -66,6 +66,17 @@ function shift_option(opts, order)
     return [];
 }
 
+function area_covered(area, choices)
+{
+    for (var i=0; i < area.in_list.length; i++) {
+        var unmatched = area.in_list[i].filter(x => choices.indexOf(x) < 0);
+        if (unmatched.length == 0) {
+            return true;
+        }
+    }
+    return false;
+}
+
 @Component({
     selector: 'my-app',
     template: `
@@ -101,10 +112,19 @@ function shift_option(opts, order)
           Feedback</a>
         </div>
         <div *ngIf='feedback'>
-       <li> Here's how you did </li>
-        <li> You covered these areas well: </li>
-        <li> You could have explored these areas further </li>
-
+          <p>Here's how you did</p>
+          <p>You covered these areas well:</p>
+          <ul>
+            <li *ngFor="#area of areas_covered">
+              {{ area.name }}
+            </li>
+          </ul>
+          <p>You could have explored these areas further:</p>
+          <ul>
+            <li *ngFor="#area of areas_not_covered">
+              {{ area.name }}
+            </li>
+          </ul>
         </div>
 
         `
@@ -182,6 +202,10 @@ export class AppComponent {
         return Object.keys(this.script).filter(x => this.script[x].exit);
     }
     receive_feedback() {
-        this.feedback=true
+        this.feedback=true;
+        this.areas_covered = this.key_areas.filter(
+          x => area_covered(x, this.choices));
+        this.areas_not_covered = this.key_areas.filter(
+          x => !area_covered(x, this.choices));
     }
 }
