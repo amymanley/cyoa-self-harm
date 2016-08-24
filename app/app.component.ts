@@ -85,8 +85,7 @@ function area_covered(area, choices)
           <dt>Node Number</dt>
           <dd>{{ script[current].clip }}</dd>
         </dl>
-        <video width="320" height="240" autoplay>
-                <source src="/assets/cyoaclips/{{ script[current].clip }}.mp4" type="video/mp4">
+        <video width="320" height="240" [src]="'/assets/cyoaclips/' + script[current].clip + '.mp4'" autoplay>
                 Your browser does not support this video</video>
         <dl>
           <dt>Doctor</dt><dd>{{ script[current].doctor_line }}</dd>
