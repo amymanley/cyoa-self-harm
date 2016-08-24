@@ -18,6 +18,7 @@ function spreadsheet_to_questions(list)
     list.forEach(function (row) {
         try {
             out[row['Item']] = {
+                clip: row['Item'],
                 doctor_line: row['Dr'],
                 patient_line: row['Patient'],
                 conflicts: row['Exclude Items'].split(/\s+/),
@@ -80,7 +81,13 @@ function area_covered(area, choices)
 @Component({
     selector: 'my-app',
     template: `
-        <video></video>
+        <dl>
+          <dt>Node Number</dt>
+          <dd>{{ script[current].clip }}</dd>
+        </dl>
+        <video width="320" height="240" autoplay>
+                <source src="/assets/cyoaclips/{{ script[current].clip }}.mp4" type="video/mp4">
+                Your browser does not support this video</video>
         <dl>
           <dt>Doctor</dt><dd>{{ script[current].doctor_line }}</dd>
           <dt>Patient</dt><dd>{{ script[current].patient_line }}</dd>
