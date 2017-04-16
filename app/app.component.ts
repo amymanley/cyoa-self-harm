@@ -29,7 +29,8 @@ function spreadsheet_to_questions(list)
                     row['Option 3 list'].split(/\s+/).filter(x => x)
                 ],
                 exit: (row['Force feedback'] == "End"),
-                end: (!!row['Force feedback'])
+                end: (!!row['Force feedback']),
+                feedback: row["Feedback"]
             };
         } catch (ex) {
             console.log("Couldn't parse row " + row['Item'] + ": "
@@ -82,61 +83,57 @@ function area_covered(area, choices)
 @Component({
     selector: 'my-app',
     template: `
-        <dl>
-          <dt>Node Number</dt>
-          <dd>{{ script[current].clip }}</dd>
-        </dl>
-        <video width="320" height="240" [src]="'/assets/cyoaclips/' + script[current].clip + '.mp4'" autoplay>
-                Your browser does not support this video</video>
-        <dl>
-          <dt>Doctor</dt><dd>{{ script[current].doctor_line }}</dd>
-          <dt>Patient</dt><dd>{{ script[current].patient_line }}</dd>
-        </dl>
-
-        <div *ngIf='current && !script[current].end'>
-          <p>Choose:</p>
-          <ol>
-            <li *ngFor='#opt of available_choices()'>
-              <a *ngIf="script[opt]" (click)="choose_option(opt)">
-                {{ script[opt].doctor_line }}
-              </a>
-              <div *ngIf="!script[opt]">
-                  ERROR: Video {{opt}} is unknown
-              </div>
-            </li>
-          </ol>
-          Or end the consultation:
-          <ol>
-              <li *ngFor='#opt of exit_questions()'>
-                  <a *ngIf="script[opt]" (click)="choose_option(opt)">
-                      {{ script[opt].doctor_line }}
-                  </a>
-              </li>
-          </ol>
+      <div class="container" *ngIf="!feedback">
+        <video width="477" height="360" [src]="'/assets/cyoaclips/' + script[current].clip + '.mp4'" autoplay>
+                  Alt text - Patient line: {{ script[current].patient_line }}</video>
         <div class="timer" *ngIf="!feedback">
           <p>TIMER: {{ticks}}</p>
         </div>
+        <div class="overlay">
+          <div *ngIf='current && !script[current].end'>
+            <p>Choose an option:</p>
+            <ol>
+              <li *ngFor='#opt of available_choices()'>
+                <a *ngIf="script[opt]" (click)="choose_option(opt)">
+                  {{ script[opt].doctor_line }}
+                </a>
+                <div *ngIf="!script[opt]">
+                    ERROR: Video {{opt}} is unknown
+                </div>
+              </li>
+            </ol>
+            <div class="endcontainer">
+              Or end the consultation:
+              <ol class="endoptions">
+                  <li *ngFor='#opt of exit_questions()'>
+                      <a *ngIf="script[opt]" (click)="choose_option(opt)">
+                          {{ script[opt].doctor_line }}
+                      </a>
+                  </li>
+              </ol>
+            </div>
+          </div>
+          <div *ngIf='current && script[current].end'>
+            This consulation is now over <a (click)="receive_feedback()">Receive
+            Feedback</a>
+          </div>
         </div>
-        <div *ngIf='current && script[current].end'>
-          This consulation is now over <a (click)="receive_feedback()">Receive
-          Feedback</a>
-        </div>
-        <div *ngIf='feedback'>
-          <p>Here's how you did</p>
-          <p>You covered these areas well:</p>
-          <ul>
-            <li *ngFor="#area of areas_covered">
-              {{ area.name }}
-            </li>
-          </ul>
-          <p>You could have explored these areas further:</p>
-          <ul>
-            <li *ngFor="#area of areas_not_covered">
-              {{ area.name }}
-            </li>
-          </ul>
-        </div>
-
+      </div>
+      <div *ngIf='feedback' class="feedback">
+        <p>Here's how you did</p>
+        <p>You covered these areas well:</p>
+        <ul>
+          <li *ngFor="#area of areas_covered">
+            {{ area.name }}
+          </li>
+        </ul>
+        <p>You could have explored these areas further:</p>
+        <ul>
+          <li *ngFor="#area of areas_not_covered">
+            {{ area.name }}
+          </li>
+        </ul>
+      </div>
         `
 })
 export class AppComponent {
@@ -221,5 +218,5 @@ export class AppComponent {
           x => area_covered(x, this.choices));
         this.areas_not_covered = this.key_areas.filter(
           x => !area_covered(x, this.choices));
-    }
+    };
 }
