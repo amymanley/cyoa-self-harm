@@ -3,6 +3,7 @@ import {Component} from 'angular2/core';
 import {Http, Response} from 'angular2/http';
 
 import 'rxjs/Rx';
+import {Observable} from 'rxjs/Rx';
 
 declare var Papa: any;
 declare var Tabletop: any;
@@ -112,6 +113,9 @@ function area_covered(area, choices)
                   </a>
               </li>
           </ol>
+        <div class="timer" *ngIf="!feedback">
+          <p>TIMER: {{ticks}}</p>
+        </div>
         </div>
         <div *ngIf='current && script[current].end'>
           This consulation is now over <a (click)="receive_feedback()">Receive
@@ -143,9 +147,11 @@ export class AppComponent {
     use_gdocs;
     feedback;
     key_areas;
+    ticks;
     areas_covered;
     areas_not_covered;
     constructor(private http: Http) {
+        this.ticks = 0;
         this.use_gdocs = true;
         this.choices = [];
         this.excludes = [];
@@ -157,6 +163,8 @@ export class AppComponent {
                 "options": [[], [], []]
             }};
         this.current = "0";
+        let timer =  Observable.timer(1000, 1000);
+        timer.subscribe(t=>this.ticks = t);
 
         if (this.use_gdocs) {
             var comp = this;
