@@ -9,12 +9,11 @@ h2, h3 {
   font-family: Arial, Helvetica, sans-serif;   
   font-weight: lighter;
 }
-body { 
-  margin: 2em; 
-}
 body, input[text], button { 
-  color: #888; 
-  font-family: Cambria, Georgia; 
+  color: white;
+  font-family: Cambria, Georgia;
+  padding: 0px;
+  margin: 0px;
 }
 a {
   cursor: pointer;
@@ -139,4 +138,44 @@ nav a.router-link-active {
 /* everywhere else */
 * { 
   font-family: Arial, Helvetica, sans-serif; 
+}
+
+/*video and question layout */
+.container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 18px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay p {margin-top: 0px}
+.timer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 3px
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.endoptions {
+  height: 0px;
+  overflow: hidden;
+  margin: 0px;
+}
+.endcontainer:hover .endoptions {
+  height: auto;
+  margin: auto;
+}
+video {
+    width: auto;
+    height: 100%;
+}
+.feedback {
+  color: black;
 }
