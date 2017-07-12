@@ -3,7 +3,5 @@ with patients.
 
 For developing the AngularJS webapp run:
 
-    make webapp/app/script.ts
-    cd webapp
     npm install
     npm start
