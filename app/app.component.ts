@@ -61,7 +61,7 @@ function spreadsheet_to_areas(sheet)
 
 function shift_option(opts, order)
 {
-    for (var i = 0; i < order.length; i++) {
+    for (let i of order) {
         if (opts[i].length > 0) {
             return [opts[i].shift()];
         }
