@@ -69,7 +69,18 @@ function shift_option(opts, order)
     return [];
 }
 
-function area_covered(area, choices)
+ function area_covered(area, choices)
+{
+    for (var i=0; i < area.in_list.length; i++) {
+        var unmatched = area.in_list[i].filter(x => choices.indexOf(x) < 0);
+        if (unmatched.length == 0) {
+            return true;
+        }
+    }
+    return false;
+}
+
+function area_feedback(area, choices)
 {
     for (var i=0; i < area.in_list.length; i++) {
         var unmatched = area.in_list[i].filter(x => choices.indexOf(x) < 0);
@@ -120,20 +131,39 @@ function area_covered(area, choices)
         </div>
       </div>
       <div *ngIf='feedback' class="feedback">
-        <p>Here's how you did</p>
-        <p>You covered these areas well:</p>
+        <h1>Here's how you did</h1>
+        <p>Well done on completing the assessment of self harm simulated patient scenario.</p>
+        <h2>What you covered</h2>
+        <h3>You covered these areas well:</h3>
         <ul>
           <li *ngFor="#area of areas_covered">
             {{ area.name }}
           </li>
         </ul>
-        <p>You could have explored these areas further:</p>
+        <h3>You could have explored these areas further:</h3>
         <ul>
           <li *ngFor="#area of areas_not_covered">
             {{ area.name }}
           </li>
         </ul>
-      </div>
+        <h2>How you did it</h2>
+        
+          <p id="para1" *ngFor="#area of questions_feedback">
+            {{ area.name }}
+          </p>
+
+        <h2>Time taken</h2>
+        <p>You spent .... minutes completing the consultation.  This is longer than it would take you in practice as you don't take as much thinking time between questions in practice.  </p>
+        <h1>What should I do next?</h1>
+        <ul><li>To learn more about self harm and it's management, complete the elearning module on self harm.</li>
+        <li>Assess a patient presenting following an episode of self harm with supervision from the liaison psychiatry team.</li>
+        </ul>
+        <h1>Student Mental Health</h1>
+        <p>Clearly this simulated patient scenario involves some upsetting material. If you have been affected by this and would like to talk to someone please contact the student support service or see the student support page <a href="http://www.bristol.ac.uk/students/wellbeing/">here</a> for details of services, including confidential helplines, which you may find helpful. </p><p>If you have concerns about another student please speak to a member of staff or <a href="http://www.bristol.ac.uk/students/wellbeing/help-someone/">follow this link</a> to find out about how you can help.</p>
+
+
+        </div>
+
         `
 })
 export class AppComponent {
@@ -144,6 +174,7 @@ export class AppComponent {
     use_gdocs;
     feedback;
     key_areas;
+    info;
     ticks;
     areas_covered;
     areas_not_covered;
@@ -153,6 +184,7 @@ export class AppComponent {
         this.choices = [];
         this.excludes = [];
         this.key_areas = [];
+        this.info = [];
         this.script = {
             "0": {
                 "doctor_line": "Loading...",
@@ -171,8 +203,10 @@ export class AppComponent {
                     console.log(data);
                     comp.script = spreadsheet_to_questions(data.Sheet1.elements);
                     comp.key_areas = spreadsheet_to_areas(data.KeyAreas.toArray());
+                    comp.info = spreadsheet_to_areas(data.Feedbk.toArray());
                     console.log(comp.script);
                     console.log(comp.key_areas);
+                    console.log(comp.info);
                 }});
         } else {
             this.http.get('script.csv')
@@ -218,5 +252,7 @@ export class AppComponent {
           x => area_covered(x, this.choices));
         this.areas_not_covered = this.key_areas.filter(
           x => !area_covered(x, this.choices));
+        this.questions_feedback = this.info.filter(
+          x => area_feedback(x, this.choices));
     };
 }
