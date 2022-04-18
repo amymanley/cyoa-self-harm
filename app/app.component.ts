@@ -174,7 +174,7 @@ export class AppComponent {
     show_feedback_page:boolean;
     questions_feedback;
     key_areas;
-    info;
+    feedback: any[];
     ticks;
     areas_covered;
     areas_not_covered;
@@ -183,7 +183,7 @@ export class AppComponent {
         this.choices = [];
         this.excludes = [];
         this.key_areas = [];
-        this.info = [];
+        this.feedback = [];
         this.script = {
             "0": {
                 "doctor_line": "Loading...",
@@ -215,7 +215,7 @@ export class AppComponent {
         this.http.get('feedback.csv')
           .subscribe(
             data => {
-              this.info = spreadsheet_to_areas(Papa.parse(data.text()).data.slice(1));
+              this.feedback = spreadsheet_to_areas(Papa.parse(data.text()).data.slice(1));
             },
             err => console.error(err),
             () => console.log('done')
@@ -252,7 +252,7 @@ export class AppComponent {
           x => area_covered(x, this.choices));
         this.areas_not_covered = this.key_areas.filter(
           x => !area_covered(x, this.choices));
-        this.questions_feedback = this.info.filter(
+        this.questions_feedback = this.feedback.filter(
           x => area_feedback(x, this.choices));
     };
 }
