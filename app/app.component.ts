@@ -94,10 +94,10 @@ function area_feedback(area, choices)
 @Component({
     selector: 'my-app',
     template: `
-      <div class="container" *ngIf="!feedback">
+      <div class="container" *ngIf="!show_feedback_page">
         <video width="477" height="360" [src]="'/assets/cyoaclips/' + script[current].clip + '.mp4'" autoplay>
                   Alt text - Patient line: {{ script[current].patient_line }}</video>
-        <div class="timer" *ngIf="!feedback">
+        <div class="timer" *ngIf="!show_feedback_page">
           <p>TIMER: {{ticks}}</p>
         </div>
         <div class="overlay">
@@ -130,7 +130,7 @@ function area_feedback(area, choices)
           </div>
         </div>
       </div>
-      <div *ngIf='feedback' class="feedback">
+      <div *ngIf='show_feedback_page' class="feedback">
         <h1>Here's how you did</h1>
         <p>Well done on completing the assessment of self harm simulated patient scenario.</p>
         <h2>What you covered</h2>
@@ -171,7 +171,7 @@ export class AppComponent {
     script;
     choices;
     excludes;
-    feedback;
+    show_feedback_page:boolean;
     questions_feedback;
     key_areas;
     info;
@@ -247,7 +247,7 @@ export class AppComponent {
         return Object.keys(this.script).filter(x => this.script[x].exit);
     }
     receive_feedback() {
-        this.feedback=true;
+        this.show_feedback_page=true;
         this.areas_covered = this.key_areas.filter(
           x => area_covered(x, this.choices));
         this.areas_not_covered = this.key_areas.filter(
