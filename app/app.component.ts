@@ -168,13 +168,16 @@ function area_feedback(area, choices)
 })
 export class AppComponent {
     current: string;
+
+    // Loaded from CSV:
     script;
+    key_areas;
+    feedback: any[];
+
     choices;
     excludes;
     show_feedback_page:boolean;
     questions_feedback;
-    key_areas;
-    feedback: any[];
     ticks;
     areas_covered;
     areas_not_covered;
