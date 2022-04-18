@@ -1,201 +1,210 @@
-Item,Dr,Patient,Exclude Items,Option 1 list,Option 2 list,Option 3 list
-0,Hello,Goodbye,,1,2B,3
-1,Say 1,Respond 1,,4 44 67 6,149,2B 30 217 36A 68 96 34B 212 222 84 196 
-4,Say 2,Respond 2,,7 10 11 44 57 6 14,55B,50 36A 68 96 30 217 34B 212 222 84 196 
-7,Say 3,Respond 3,43,8 10 57 6  44,,54 36A 68 96 30 217 34B 212 222 84 196 
-8,Say 4,Respond 4,,10 57 44  6,,9A 36A 68 96 30 217 34B 212 222 84 196 
-10,Say 5,Respond 5,,1 11 57 6,,36A 68 96 30 217 34B 212 222 84 196 
-11,Say 6,Respond 6,,12 1 6 44 57,229,55B 2 36A 68 96 30 217 34B 212 222 84 196 
-12,Say 7,Respond 7,,13 14 57 10,55B,18 36A 68 96 30 217 34B 212 222 84 196 
-13,Say 8,Respond 8,,14 1 6 44,74,54 15 36A 68 96 30 217 34B 212 222 84 196 
-6,Say 9,Respond 9,,4 7 55A,44,2A 36A 68 96 30 217 34B 212 222 84 196 
-14,Say 10,Respond 10,,4 55A 7,6 27,2C 36A 68 96 30 217 34B 212 222 84 196 
-57,Say 11,Respond 11,,1 11 14 44 6,43 55B,18 36A 68 96 30 217 34B 212 222 84 196 
-44,Say 12,Respond 12,,1 7 6 14,,55 30 217 36A 68 96 34B 212 222 84 196 
-149,Say 13,Respond 13,,150 13 14 10,55B,18 36A 68 96 30 217 34B 212 222 84 196 
-150,Say 14,Respond 14,,180 1 57 6,,55B 50 36A 68 96 30 217 34B 212 222 84 196 
-180,Say 15,Respond 15,,181 7 10 14,,55A 36A 68 96 30 217 34B 212 222 84 196 
-181,Say 16,Respond 16,,182 11 57,192,50 36A 68 96 30 217 34B 212 222 84 196 
-182,Say 17,Respond 17,,1 6,175,251 36A 68 96 30 217 34B 212 222 84 196 
-50,Say 18,Respond 18,,2A 19 25 62,111 112 113 114 115 118 120 125,1 36A 68 96 30 217 34B 212 222 84 196 
-2,Say 19,Respond 19,54  55,25 20 62 23,19 109 113 117 120 122 124 125,9A 99A 149 36A 1 68 96 30 217 34B 212 222 84 196 
-54,Say 20,Respond 20,55  2,20 25 62 23,19 109 113 117 120 122 124 125,9A 99A 149 36A 1 68 96 30 217 34B 212 222 84 196 
-55A,Say 21,Respond 21,2 54 55B,25 20 62 23,19 109 113 117 120 122 124 125,99A 9A 149 36A 1 68 96 30 217 34B 212 222 84 196 
-55B,Say 22,Respond 22,2 54 55A,25 20 62 23,19 109 113 117 120 122 124 125,9A 149 36A 1 68 96 30 217 34B 212 222 84 196 
-18,Say 23,Respond 23,,54 20 25 23 62,19 109 118 119 111 112 113 114 115 120 125,36A 1 68 96 30 217 34B 212 222 84 196 
-19,Say 24,Respond 24,3,54 20 25 21B 62 23,60 109 111 112 113 114 115 118 120 125  ,1 36A 68 96 30 217 34B 212 222 84 196 
-60,Say 25,Respond 25,,65 25 54 20 23 62,19 61 109 111 112 113 114 115 118 120 125,36A 1 68 96 30 217 34B 212 222 84 196 
-61,Say 26,Respond 26,,20 54 25 21B 23,110 62 109 111 112 113 114 115 118 120 125,36A 1 217 84 68 196 30 212 96 222 15 43 34B  
-20,Say 27,Respond 27,,21B 54 20 25 62 67 29,19 60 22 109 117 23 113 114 115 120,9A 1 96 217 84 68 196 30 212 222 36A 15 43 34B  
-21A,Say 28,Respond 28,21b,23 26 25 20 54 29 62 67 21,22 19 109 117 114 120 113 115,9A 30 68 1 196 84 222 34B 15 43 217 96 36A 212 
-21B,Say 29,Respond 29,21a,23 26 25 20 54 29 62 67 21,22 19 109 117 114 120 113 115,9A 30 68 1 196 84 222 34B 15 43 217 96 36A 212 
-22,Say 30,Respond 30,,3  23 20 25 29 21B 67 62,19 122 109 117 23 113 114 115 120,68 43 34B 222 15 196 84 217 212 36A 1 96 30 
-23,Say 31,Respond 31,,24 25 20 2 21A 62 29 67,19 122 117 114 113 120 109 23 115,217 34B 68 30 222 84 15 96 43 196 1 36A 212 
-24,Say 32,Respond 32,,25 2 20 21B 29 67 62,19 122 123 115 113 23 114 120 109 117,1 212 217 30 84 15 43 96 34B 68 36A 196 222
-25,Say 33,Respond 33,,26 29 2 62 67 21,122 19 114 23 113 120 117 115 109,217 196 36A 212 84 68 96 222 43 15 1 34B 30 
-26,Say 34,Respond 34,,62 19 67 2 20 21B 29,23 25 109 117 114 120 113 115,35 36A 30 96 196 1 222 68 212 84 43 15 34B 217 36A 
-62,Say 35,Respond 35,,63 19 29 67 62 25 23 20,35 122 109 117 23 113 114 115 120,27 99B 36A 96 34B 68 15 30 217 43 196 1 222  84 212
-63,Say 36,Respond 36,,67 35 19 62 20 23 25,115 113 23 114 120 109 117 ,27 36A 96 34B 68 15 30 217 43 196 1 222  84 212
-67,Say 37,Respond 37,,35 19 25 23 62 20,96 29 117 114 113 120 109 23 115,13 68 55B 30 68 1 196 84 222 34B 15 43 217 96 36A 212 
-35,Say 38,Respond 38,,62 29 35 25 23 20,19 34 23 109 117 114 120 113 115,36A 68 84 30 96 212 217 43 1 34B 222 196 15 
-29,Say 39,Respond 39,,35 19 27 25 23 20 62,30 114 23 113 120 117 115 109,27 68 55B 212 217 30 84 15 43 96 34B 36A 196 1 222 
-3,Say 40,Respond 40,19,54 25 20 62 23,102 109 117 23 113 114 115 120,36A 84 68 217 212 96 1 196 30 222 34B 43 15 
-102,Say 41,Respond 41,,54 20 25 62 23,103 115 113 23 114 120 109 117,34B 68 84 222 30 217 36A 43 15 1 96 196 212
-103,Say 42,Respond 42,,54 25 20 62 23,104 117 114 113 120 109 23 115,34B 68 84 222 30 217 36A 43 15 1 96 196 212
-104,Say 43,Respond 43,,54 20 25 62 23,105 114 23 113 120 117 115 109,68 84 30 96 212 217 43 1 36A 34B 222 196 15 
-105,Say 44,Respond 44,,106 54 20 25 62 23,164 23 109 117 114 120 113 115,34B 84 212 36A 68 222 43 1 196 217 30 96 15
-164,Say 45,Respond 45,,25 54 20 62 23,109 163 115 113 23 114 120  117,212 36A 84 96 217 1 68 30 196 222 15 34B 43 
-163,Say 46,Respond 46,,54 20 25 23 62,113 109 117 114 120 115,96 15 30 217 1 43 36A 212 196 84 34B 222 68 
-106,Say 47,Respond 47,,107 54 20 25 62 23,164 23 114 23 113 120 117 115 109,1 36A 68 96 30 217 34B 212 222 84 196
-107,Say 48,Respond 48,,54 20 25 23 62,108 109 117 114 120 113 115,36A 96 34B 196 222 212 217 84 30 68 1
-108,Say 49,Respond 49,,65 20 54 62 23 25 21B,109 115 113 23 114 120  117,96 15 30 217 1 43 36A 212 196 84 34B 222 68 
-65,Say 50,Respond 50,,54 20 25 21B 23 62,110 114 23 113 120 117 115 109,34B 84 212 36A 68 222 43 1 196 217 30 96 15
-109,Say 51,Respond 51,,20 54 23 21B  25 62,110 117 23 113 114 115 120,36A 96 34B 196 222 212 217 84 30 68 1
-110,Say 52,Respond 52,,23 25 20 54 62 25 21B,111 109 117 114 120 113 115,96 15 30 217 1 43 36A 212 196 84 34B 222 68 
-111,Say 53,Respond 53,,54 25 62 21B 20 23,112 117 114 113 120 109 23 115,36A 96 34B 196 222 212 217 84 30 68 1
-112,Say 54,Respond 54,,20 54 62 23 25 21B,113 23 109 117 114 120 115,217 1 68 222 196 30 96 36A 34B 84 212
-113,Say 55,Respond 55,,54 20 23 21B  25 62,114 23 113 120 117 115 109,30 222 196 36A 68 96 84 212 34B 217 1
-114,Say 56,Respond 56,,115 20 54 23 21B  25 62,109 117 23 113 114 120,217 1 68 222 196 30 96 36A 34B 84 212
-115,Say 57,Respond 57,,25 62 21B 20 54 23,116 115 113 23 114 120 109 117,30 222 196 36A 68 96 84 212 34B 217 1
-116,Say 58,Respond 58,,54 20 62 23 25 21B,117 120 113 23 115 109 114 117,36A 96 34B 196 222 212 217 84 30 68 1
-117,Say 59,Respond 59,,25 62 21B 20 54 23,118 114 113 120 109 23 115,34B 36A 68 1 96 30 217 212 222 84 196
-118,Say 60,Respond 60,,23 62 21B,119 23 109 117 114 120 113 115,9A 212 36A 84 96 217 1 68 30 196 222 15 34B 43 
-119,Say 61,Respond 61,,21B 23 62,120 114 23 113 117 115 109,1 36A 68 96 30 217 34B 212 222 84 196
-120,Say 62,Respond 62,,23 21B 62,121 109 117 23 113 114 115 120,96 15 30 217 1 43 36A 212 196 84 34B 222 68 
-121,Say 63,Respond 63,,21A 62 23,122 115 113 23 114 120 109 117,36A 96 34B 196 222 212 217 84 30 68 1
-122,Say 64,Respond 64,,62 23 21B,123 120 113 23 115 109 114 117,74 1 36A 68 96 30 217 34B 212 222 84 196
-123,Say 65,Respond 65,,23 62 21B,124 117 114 113 120 109 23 115,30 222 196 36A 68 96 84 212 34B 217 1
-124,Say 66,Respond 66,,62 21B 23,125 23 109 117 114 120 113 115,212 68 1 34B 36A 96 30 217 196 84 222
-125,Say 67,Respond 67,,21B 62 23,114 23 113 120 117 115 109,9A 212 36A 84 96 217 1 68 30 196 222 15 34B 43 
-68,Say 68,Respond 68,,27 96 94,99B 58  98,55B 36A 30 84 217 36A 34A 68 212 196 2b
-27,Say 69,Respond 69,,28,96 90 91 89 88 94 16,55B 36A 30 84 217 36A 34A 68 212 196 2b
-28,Say 70,Respond 70,,69 142,96 91 90 94 16 89 88,74 2b 29 36A 34A 80 212 222 1 68 30 217 196
-69,Say 71,Respond 71,,9B 16 42 27,87 96 91 90 88 89 94,36A 212 34B 36A 2b 222 30 68 196 1 217 84
-96,Say 72,Respond 72,,95 91 90 142,94 88 89 16,84 34A 36A 196 84 212 222 1 2b 68 30 217
-95,Say 73,Respond 73,,96 91 90 27,42 89 88 94 16,68 34B 36A 212 222 30 196 1 217 2b 84
-90,Say 74,Respond 74,,96 91 27,16 94 89 88 27,44 84 30 217 36A 34A 68 212 196 2b
-91,Say 75,Respond 75,,96 90 142,89 94 16 88 27,212 80 34B 36A 212 222 30 68 196 1 217 2b
-89,Say 76,Respond 76,,88 87,96 27 16 94 90 91 ,36A 34B 84 212 222 1 68 30 217 196 2b
-88,Say 77,Respond 77,,89 87,96 90 91 16 27 94 ,34B 36A 212 68 222 30 196 1 217 84 2b
-88i,Say 78,Respond 78,,87 89 ,16 27 94 96 90 91,212 68 34B 36A 222 30 196 1 217 84 2b
-87,Say 79,Respond 79,,88 89 90 91,129 94 16 142,2b 68 36A 96 30 217 34B 212 222 84 196
-128,Say 80,Respond 80,,94 16 27,2 96 90  89 91 88,34B 80 212 222 1 68 30 217 196 2b
-94,Say 81,Respond 81,,93 92,91 89 16 129 88 94 27,84 36A 34B 84 212 222 1 68 30 217 196
-93,Say 82,Respond 82,,92 94,16 142 96 90 91 89 88 ,34A 2b 212 222 1 68 30 217 196 36A
-92,Say 83,Respond 83,,93 94,96 90  89 88 91 16 27,212 68 34B 36A 222 30 196 1 217 84
-16,Say 84,Respond 84,,17 16 27 94,9b 129 90 91 89 88,74 84 30 217 36A 34A 68 212 196
-17,Say 85,Respond 85,,42 96 90 91,9b 27 89 88 94,2A  68 96 36A 30 217 34B 212 222 84 196
-42,Say 86,Respond 86,,16 9B 15,129 90 91 89 88 94 27,80 36A 34B 84 212 222 1 68 30 217 196
-9A,Say 87,Respond 87,9b,15 42 16,96 90 91 89 88 94 27,21B 2A 34B 36A 68 212  222 30 196 1 217 84
-9B,Say 88,Respond 88,9a,15 42 16,96 90 91 89 88 94 27,21B 2A 34B 36A 68 212  222 30 196 1 217 84
-15,Say 89,Respond 89,,9b 16 42,129 90 91 89 88 94 27,30 217 36A 34A 68 212 196
-129,Say 90,Respond 90,,94 16 88 89,96 142 90 91,84 36A 34B 84 212 222 1 68 30 217 196
-142,Say 91,Respond 91,,143 27 96 91 90,16 89 88 94,34A 2b 212 222 1 68 30 217 196 36A
-143,Say 92,Respond 92,,96 90 91 89 88 94 16 27,55B 7 10 50,36A 34B 80 212 222 1 68 30 217 196
-84,Say 93,Respond 93,,83,82 78 77,86 68 36A 96 30 217 34B 212 222 84 196
-86,Say 94,Respond 94,,85,80 77 78 82,96 30 1 217 34B 36A 68 212 222 84 196
-85,Say 95,Respond 95,,82,34B,34B 68 96 1 36A 30 217 212 222 84 196
-83,Say 96,Respond 96,,78 82 77 86,80,82 34B 96 36A 1 68 30 222 84 217 212 196
-82,Say 97,Respond 97,79,81 86,78 77,68 217 30 34B 36A 96 1 84 196 222 212
-81,Say 98,Respond 98,167t2 167t1,78 77,86 82,68 96 30 36A 1 222 212 196 217 34B 
-80,Say 99,Respond 99,,Go straight into 79 without other options,,
-79,Say 100,Respond 100,82,166t1,167t1  ,34B 36A 196 68 222 1 96 212 217 30 
-166t1,Say 101,Respond 101,81,185,167t2  ,184
-167t2 ,Say 102,Respond 102,82 167t1,81 86,78 77 76 ,68 217 30 34B 36A 96 1 84 196 222 212
-167t1,Say 103,Respond 103,82 81 167t2,78 77,86 82,68 96 30 36A 1 222 212 196 217 34B 
-78,Say 104,Respond 104,,82 86 81,77,217 68 34B 30 1 96 212 222 36A 196
-77,Say 105,Respond 105,,76,78 86 82,1 36A 212 217 68 34B 196 96 222 30
-76,Say 106,Respond 106,,75,82 86 78,222 34B 196 217 68 36A 212 96 30 1 
-75,Say 107,Respond 107,,86 82,78,68 36A 222 96 1 196 212 30 34B 217 
-30,Say 108,Respond 108,175,71 178 230B 221 219 43,31,34A 36A 196 96 84 222 212 68 1
-31,Say 109,Respond 109,,33B,32,217 230B 219 43 36A 212 34B 196 84 68 1 222 96 
-32,Say 110,Respond 110,,33A,33C,219 43 178 230B 36A 212 34B 196 84 68 1 222 96 
-33A,Say 111,Respond 111,33b 33c,178 230B 43 219 ,71,34B 196 212 1 84 222 68 96 36A 
-33B,Say 112,Respond 112,33a 33c,178 230B 43 219 ,71,34B 196 212 1 84 222 68 96 36A 
-33C,Say 113,Respond 113,33b 33c,178 230B 43 219 ,71,34B 196 212 1 84 222 68 96 36A 
-71,Say 114,Respond 114,,232 219 221 43,217 230B,57 55B 34A 96 68 36A 212 84 34B 222 196 
-217,Say 115,Respond 115,,218 229 219 43 221,232 55B,57 230B 34B 96 196 222 36A 212 84 68 
-218,Say 116,Respond 116,,219,30,55B 230B 212 84 36A 96 34B 222 68 196 1 
-232,Say 117,Respond 117,,178 230B,30 219 43,55B 212 196 36A 96 68 34B 1 222 84 
-219,Say 118,Respond 118,220,221,30 178 230A 43,196 212 36A 96 68 34B 1 222 84 
-221,Say 119,Respond 119,,219 30 43,217 230B,196 1 222 36A 34B 212 84 68 96 
-175,Say 120,Respond 120,,176,177,178 196 222 212 68 1 96 34B 36A 84 
-176,Say 121,Respond 121,,178 230A 219,30 43 ,55B 96 34B 212 196 36A 68 222 84
-177,Say 122,Respond 122,,178 230A 219,30 43,34B 36A 1 84 96 196 212 68 222 
-178,Say 123,Respond 123,,230A,229 221 219 43 30,57 55B 222 84 36A 34B 212 96 196 68 
-230A,Say 124,Respond 124,230b,231,221 229 43 219 30,196 222 96 84 68 1 36A 196 212 34B 
-230B,Say 125,Respond 125,230a,231,221 229 43 219 30,196 222 96 84 68 1 36A 196 212 34B 
-231,Say 126,Respond 126,,43,219 30 ,55B 84 34B 222 196 68 36A 96 212 
-43,Say 127,Respond 127,,178 230A 219 30 221,57,7 196 96  222 68 212 84 34B 36A 
-146,Say 128,Respond 128,,30 219 217 45,221,44 36A 68 222 196 1 212  84 96 34B
-34,Say 129,Respond 129,,72,36B,40 41 96 68 212 1 84 217 196 30   
-72,Say 130,Respond 130,40,64,36B,41 68 1 96 222 196 84 217 212 30   
-64,Say 131,Respond 131,40,41,36B,30 1 212 96 84 222 217 196 68
-36a,Say 132,Respond 132,36b,37 38 39A,34B,68 212 196 217 1 222 96 84 30   
-36b,Say 133,Respond 133,36a,37 38 39A,34B,68 212 196 217 1 222 96 84 30   
-37,Say 134,Respond 134,,66,38 39B,41 34B 40 96 196 1 84 30 68 217 212 222   
-66,Say 135,Respond 135,,39B 38,34B 40 41,30 217 1 84 222 212 196 68 96
-38,Say 136,Respond 136,,37 39A,41 34B 40,96 1 196 217 34B 30 212 96 36A 84
-39a,Say 137,Respond 137,39b,40 41,38,217 196 222 30 84 1 212 68 96   
-39b,Say 138,Respond 138,39a,40 41,38,217 196 222 30 84 1 212 68 96   
-40,Say 139,Respond 139,,41,72,36B 84 212 34B 30 196  217 96 36A 1
-41,Say 140,Respond 140,,34B 40,36A,
-99a,Say 141,Respond 141,99b,98 97 52 48 301 51 59,58,97 96 54 25B 84 212 34B 30 196  217 96 36A 1
-99b,Say 142,Respond 142,99a,98 97 52 48 301 51 59,58,97 96 54 25B 84 212 34B 30 196  217 96 36A 1
-68,Say 143,Respond 143,,99B 97 126 48 301 52,58 59 56,98 54 96 212 1 84 30 196 34B 36A 217   
-58,Say 144,Respond 144,,99B 98 97 52 48 301 126,59,2A 36A 96 34B 212 1 84 217 196 30   
-98,Say 145,Respond 145,,52 48 301 51,99B,97 30 34B 96 212 84 217 36A 1 196   
-97,Say 146,Respond 146,,99A 301 48 52 51,127,2A 96 34B 1 36A 196 84 217 212 30
-52,Say 147,Respond 147,,51,48 301,59  34B 1 96 36A 196 84 217 212 30
-51,Say 148,Respond 148,,47,49,126
-47,Say 149,Respond 149,51,301 48 52,56 59 58,98 99b  97 30 1 212 96 84 36A 217 196 34B   
-49,Say 150,Respond 150,51,301 48 52,56 59 58,97 99b 98 34B 212 196 217 1 36A 96 84 30   
-126,Say 151,Respond 151,51,52 48 301,59 56 58,98 99b 97 96 196 1 84 30 34B 217 212 36A   
-48,Say 152,Respond 152,,52 126 301,56 59 58,97 99b 98 217 196 36A 30 84 1 212 34B 96   
-301,Say 153,Respond 153,,126 48 52,59 56 58,98 99b 97 30 217 1 84 36A 212 196 34B 96   
-127,Say 154,Respond 154,,99A 48 47 52 51,2A,96 1 217 84 34B 196 30 212 96 36A   
-59,Say 155,Respond 155,,56 98 99b 52 97 48 301 51,58,34B 217 30 196 1 96 84 212 36A
-56,Say 156,Respond 156,,53 56,98 99b 52 97 48 301 51,84 212 30 196 36A 1 34B 96 217   
-53,Say 157,Respond 157,,59 56,97 99b 98 52 48 301 51,212 96 1 84 30 196 34B 36A 217
-147,Say 158,Respond 158,,98,59,43 30 34B 96 212 84 217 36A 1 196   
-212,Say 159,Respond 159,,213 148,214,34B 36A  217 196 222 30 84 1 68 96   
-213,Say 160,Respond 160,,148,214,204 206 222 34B 217 30 196 1 96 84 68 36A   
-214,Say 161,Respond 161,,215,212 148 213,34B 222 30 217 1 84 36A 68 196 96   
-215,Say 162,Respond 162,,216,212 213 148,36A 30 196 222 1 84 68 34B 96 217   
-216,Say 163,Respond 163,,212 213,148,34B 1 196 217 222 30 68 96 36A 84   
-148,Say 164,Respond 164,,214,212 213,222 84 68 34B 30 196  217 96 36A 1
-222,Say 165,Respond 165,,223 224 144,226,191 96 217 84 68 30 212 34B 36A 1 
-223,Say 166,Respond 166,,224 144,226,34B 96 84 68 196 30 212  217 36A 1 
-224,Say 167,Respond 167,,144,222 226,36A 34B 96 68 84 217 196 1 212 30 
-226,Say 168,Respond 168,,222 223 144,227,220 217 84 68 30 96 212 34B 196 36A 1 
-227,Say 169,Respond 169,,144 222 223,228,212 84 68 196 34B 30 217 96 36A 1 
-228,Say 170,Respond 170,,222 223,224,6 220 212 68 84 217 34B 196 96 1 30 36A 
-144,Say 171,Respond 171,,222 223,224,36A 34B 96 212 217 84 68 30 196 1 
-188,Say 172,Respond 172,,191 193B,189B 196 200 203 204,220 30 217 84 222 68 34B 212 96 36A 1 
-189,Say 173,Respond 173,188,220 196 189B 200 203 204 233,193B 198 191,217 96 30 68 1 84 222 212 34B 36A 
-220,Say 174,Respond 174,,188,196 189B 204 203 200,219 30 222 36A 96 34B 68 1 84 217 212 
-191,Say 175,Respond 175,,192 193B,204 196 189B 204 203 200,224 222 30 34B 96 68 84 217 36A 1 212
-192,Say 176,Respond 176,,193,204,206 N
-193,Say 177,Respond 177,192,194,198 204 189B 200 202 203 ,222 34B 1 96 36A 212 84 217 68 30
-194,Say 178,Respond 178,,195,198 204 200 202 203 ,217 34B 1 96 36A 212 84 217 68 30
-195,Say 179,Respond 179,,198 204 200 202 203,189B,30 1 68 96 84 36A 217 212 34B
-196,Say 180,Respond 180,,197,204 188 202 203,200 1 217 84 34B 212 30 68 96 36A
-197,Say 181,Respond 181,188,193B 198,189A 202 203 200 204,30 34B 68 212 217 1 36A 96 84
-198,Say 182,Respond 182,,199,202 203 200 204 189B,36A 96 212 1 84 30 34B 217 68
-199,Say 183,Respond 183,,200,189B 188 202 204 203,217 212 36A 30 84 1 68 34B 96   
-200,Say 184,Respond 184,,202,201 196 204 189B 188,203 36A 30 217 1 84 68 212 34B 96   
-201,Say 185,Respond 185,,202,233 204 196 189B ,203 221 30 217 212 36A 1 84 68 34B 96
-202,Say 186,Respond 186,,200,203 189B 196 204 ,1 212 217 34B 30 68 96 36A 84
-203,Say 187,Respond 187,,200 202,204 196 189B ,68 96 34B 217 30 212 1 84 36A   
-204,Say 188,Respond 188,192,205 206,208 202 203 189B 200,189B 84 68 34B 30 212  217 96 36A 1
-205,Say 189,Respond 189,,206,210 189B 200 202 203 233,15 30 96 68 1 84 212 34B 36A 217
-206,Say 190,Respond 190,192,191,207 208 200 203 202 189B 204,194 30 36A 96 34B 68 1 84 217 212
-207,Say 191,Respond 191,,208 205,200 202 203 189B,15 217 30 34B 96 68 84 217 36A 1 212
-208,Say 192,Respond 192,,209,206 233 189B 200 202 203,210 43 34B 1 96 36A 212 84 217 68 30
-209,Say 193,Respond 193,,210,205 206 202 200 203 233,213 1 68 96 84 36A 217 30 34B   
-210,Say 194,Respond 194,,211,203 189B 200 202 204 233,43 1 217 84 34B 212 30 68 96 36A
-211,Say 195,Respond 195,,233,202 200 203 189B 204,7 8 68 96 84 36A 217 30 34B
-233,Say 196,Respond 196,,234,189B 196 200 203 202 204,15 30 34B 68 212 217 1 36A 96 84
-234,Say 197,Respond 197,,196,188 200 202 203 204 233,217 30 96 212 1 84 34B 68 36A
-251,Say 198,Respond 198,,19 109 62 34B,54 149 120 124,23 24 112 21
-74,Say 199,Respond 199,,Go straight into feedback sequence 161,,
+Item,Exclude Items,Option 1 list,Option 2 list,Option 3 list,Dr,Patient,Force feedback,Feedback
+0,,1,2B,3,"Hello Miss Smith, my name is Dr Jones, I'm a junior doctor. I'd like to talk to you about what has brought you to hospital today.",Thats's fine,,
+1,,4 44 67 6,149,2B 30 217 36A 68 96 34 212 222 84 196,"It sounds like things have been really hard for you, perhaps you could tell me what's been happening","There's just so many things, I don't know where to start",,
+4,,7 10 11 44 57 6 14,55B,50 36A 68 96 30 217 34 212 222 84 196,Take your time,"I just couldn’t take it anymore, it all just got to me, the bills, losing my job and then all this with my boyfriend.",,
+7,43,8 10 57 6 44,,54 36A 68 96 30 217 34 212 222 84 196,You lost your job?,Yeah. I hated it anyway. I was working in the café at the bowling alley and then my boss practically forced me to leave.,,
+8,,10 57 44 6,,9A 36A 68 96 30 217 34 212 222 84 196,Hmmm (nod),"He just kept making things hard for me. Putting me on shifts noone wanted and making us do extra things, cleaning the kitchen and that which they used to have cleaners for. I told him what I thought of it and he said I could always leave so I walked out.",,
+10,,1 11 57 6,,36A 68 96 30 217 34 212 222 84 196,That sounds like a difficult Situation.,Yeah and now I’m screwed because I haven’t got much money,,
+11,,12 1 6 44 57,,55B 2B 36A 68 96 30 217 34 212 222 84 196,So you’re finding it hard to make ends meet.,I am and now with all this with my boyfriend I’ll probably have nowhere to live,,
+12,,13 14 57 10,55B,18 36A 68 96 30 217 34 212 222 84 196,Nowhere to live?,Not if my boyfriend makes me leave. He broke up with me yesterday.,,
+13,,14 1 6 44,74-161,54 15 36A 68 96 30 217 34 212 222 84 196,He broke up with you?,"Yeah, you know, its all been a bit up and down with us but he seemed to mean it yesterday. I just don’t know what I’m going to do without him. It’s just so awful, and then all this. He was so cross about the tablets too, he said I was stupid. I guess I was, I don’t know what I’ll do without him.",,
+6,,4 7 55A,44,2A 36A 68 96 30 217 34 212 222 84 196,It sounds like you've really been through a lot recently.,Yes but I was ok until yesterday.,,
+14,,4 55A 7,6 27,2C 36A 68 96 30 217 34 212 222 84 196,That must have been really hard for you,"Yeah, well, you can see what happened.",,
+57,,1 11 14 44 6,43 55B,18 36A 68 96 30 217 34 212 222 84 196,I’m sorry to hear that,It's just with not working I haven’t got any money and I’ve borrowed some from my boyfriend. I’m going to pay it back but he was getting really pissed off about it yesterday that´s why we’ve been arguing so much.,,
+44,,1 7 6 14,,55 30 217 36A 68 96 34 212 222 84 196,Have you got financial concerns now?,"Yeah, I’ve borrowed quite a lot from my boyfriend, about a grand, and with loosing my job its not like I can pay him back. That’s one of the main things that we’ve been arguing about.",,
+149,,150 13 14 10,55B,18 36A 68 96 30 217 34 212 222 84 196,Have there been any recent changes in your life?,My boyfriend broke up with me.,,
+150,,180-79 1 57 6,,55B 50 36A 68 96 30 217 34 212 222 84 196,How has that affected you?,I don’t know what I’m going to do.,,
+180-79,,181 7 10 14,,55A 36A 68 96 30 217 34 212 222 84 196,Is there anything else bothering you?,I lost my job,,
+181,,182 11 57,192,50 36A 68 96 30 217 34 212 222 84 196,How has that affected you?,I haven’t got much money,,
+182,,1 6,175,251 36A 68 96 30 217 34 212 222 84 196,and anything else troubling you at the moment?,I don’t think so,,
+50,,2A 19 25 62,111 112 113 114 115 118 120 125,1 36A 68 96 30 217 34 212 222 84 196,Was that why you took the overdose?,Maybe it was a part of it but to be honest I was ok until yesterday.,,
+2A,54 55 2B 2C,25 20 62 23,19 109 113 117 120 122 124 125,9A 99A 149 36A 1 68 96 30 217 34 212 222 84 196,What happened yesterday?,"I took some tablets, too many tablets…. I’d a row with my boyfriend you see. He said it was over and told me to leave. I’d had a bit to drink and I was really upset. I went to the bathroom to get some of my things together, locked the door, and then I saw the tablets and I felt so fed up that I took them.",,
+2B,2A 2C,54 25 20 62 23,19 109 113 117 120 122 124 125,9A 99A 149 36A 1 68 96 30 217 34 212 222 84 196,Perhaps you could tell me what led to you coming to hospital today.,"I took some tablets, too many tablets…. I’d a row with my boyfriend you see. He said it was over and told me to leave. I’d had a bit to drink and I was really upset. I went to the bathroom to get some of my things together, locked the door, and then I saw the tablets and I felt so fed up that I took them.",,
+2C,54 55 2A 2B,25 20 62 23,19 109 113 117 120 122 124 125,9A 99A 149 36A 1 68 96 30 217 34 212 222 84 196,go on…,"I took some tablets, too many tablets…. I’d a row with my boyfriend you see. He said it was over and told me to leave. I’d had a bit to drink and I was really upset. I went to the bathroom to get some of my things together, locked the door, and then I saw the tablets and I felt so fed up that I took them.",,
+54,55 2A 2B 2C,20 19 99A 25 62 23,19 109 113 117 120 122 124 125,9A 99A 149 36A 1 68 96 30 217 34 212 222 84 196,Could you talk me through what happened leading up to that…,"It was stupid really. I had a row with my boyfriend and he told me that I should leave. I’d had a bit to drink and I was really upset. I went upstairs to get my things. I was in the bathroom and locked the door, then I saw the tablets and I felt so fed up that I took them.",,
+55A,2A 2B 2C 54 55B,25 20 62 23,19 109 113 117 120 122 124 125,99A 9A 149 36A 1 68 96 30 217 34 212 222 84 196,"That sounds really frustrating, and you said things weren’t going well with your boyfriend too","I had a row with him yesterday evening and he told me that I should leave. I went upstairs to get my things. I went to the bathroom and locked the door, then I saw the tablets and I felt so fed up that I took them. (EXCLUDES “Thats why I took the tablets really. I’d had a bit to drink.”)",,
+55B,2A 2B 2C 54 55A,25 20 62 23,19 109 113 117 120 122 124 125,9A 149 36A 1 68 96 30 217 34 212 222 84 196,what happened with your boyfriend,"I had a row with him yesterday evening and he told me that I should leave. Thats why I took the tablets really. I’d had a bit to drink and I was really upset. I went upstairs to get my things. I went to the bathroom and locked the door, then I saw the tablets and I felt so fed up that I took them.",,
+18,,54 20 25 23 62,19 109 118 119 111 112 113 114 115 120 125,36A 1 68 96 30 217 34 212 222 84 196,Is that when you took the overdose?,Yeah,,
+19,3,54 60 1 21B 20 25 62 23,60 109 111 112 113 114 115 118 120 125,1 36A 68 96 30 217 34 212 222 84 196,What did you take?,"A 16 pack of paracetamol and some fluoxetine, about 6 of them.",,
+60,,65 25 54 20 23 62,19 61 109 111 112 113 114 115 118 120 125,36A 1 68 96 30 217 34 212 222 84 196,Do you know what dose the tablets were?,The fluoxetine are 20mgs,,
+61,,20 54 25 21B 23,110 62 109 111 112 113 114 115 118 120 125,36A 1 217 84 68 196 30 212 96 222 15 43 34,What dose were the paracetamol you took?,They’re just the normal ones that you can buy,,
+20,,21B 54 20 25 62 67 29,19 60 22 109 117 23 113 114 115 120,9A 1 96 217 84 68 196 30 212 222 36A 15 43 34,And what did you think would happen?,"I don't know. I guess I didn't really have time to think it through, it just happened. At the time I was thinking that I wanted to die but I didn't actually think that it'd kill me. I just needed a break.",,
+21A,21B,23 26 25 20 54 29 62 67 21,22 19 109 117 114 120 113 115,9A 30 68 1 196 84 222 34 15 43 217 96 36A 212,It sounds like you weren’t sure what you wanted to happen,"(no I didn’t, I guess I didn’t want my boyfriend to dump me, but)… l feel alright now. I don't want to die and I’m not going to do it again. I just wish I hadn't done it. What would my dog do without me? And my mum would be really upset if she knew",,
+21B,21A,23 26 25 20 54 29 62 67 21,22 19 109 117 114 120 113 115,9A 30 68 1 196 84 222 34 15 43 217 96 36A 212,How do you feel now?,l feel alright now. I don't want to die and I’m not going to do it again. I just wish I hadn't done it. What would my dog do without me? And my mum would be really upset if she knew,,
+22,,3 23 20 25 29 21B 67 62,19 122 109 117 23 113 114 115 120,68 43 34 222 15 196 84 217 212 36A 1 96 30,So did you want to die or not?,I thought that I did when took them but I don’t now,,
+23,,24 25 20 2C 21A 62 29 67,19 122 117 114 113 120 109 23 115,217 34 68 30 222 84 15 96 43 196 1 36A 212,Had you left a note?,"No, I didn’t think I would actually die.",,
+24,,25 2C 20 21B 29 67 62,19 122 123 115 113 23 114 120 109 117,1 212 217 30 84 15 43 96 34 68 36A 196 222,Had you made any other preparations for the overdose?,"No, it was a spur of the moment thing. I just had the tablets in the cabinet. I hadn’t planned it to happen.",,
+25,,26 29 2C 62 67 21,122 19 114 23 113 120 117 115 109,217 196 36A 212 84 68 96 222 43 15 1 34 30,And what happened after you took the tablets?,My boyfriend came up stairs. He asked me what was happening and I told him what I’d done. So he called an ambulance.,,
+26,,62 19 67 20 21B 29,23 25 109 117 114 120 113 115,35 36A 30 96 196 1 222 68 212 84 43 15 34 217 36A,Had you told your boyfriend that you were thinking of harming yourself before you took the tablets?,No,,
+62,,63 19 29 67 62 25 23 20,35 122 109 117 23 113 114 115 120,27 99B 36A 96 34 68 15 30 217 43 196 1 222 84 212,Are you thinking about harming yourself again now?,No I don’t want to,,
+63,,67 35 19 62 20 23 25,115 113 23 114 120 109 117,27 36A 96 34 68 15 30 217 43 196 1 222 84 212,It sounds like it was really playing on your mind yesterday. Has anything changed since then?,Ive just thought it through. I don’t want to die.,,
+67,,35 19 25 23 62 20,96 29 117 114 113 120 109 23 115,13 68 55B 30 68 1 196 84 222 34 15 43 217 96 36A 212,"You’ve clearly been through a lot, Is there anything in particular that stopping you from harming yourself?","Well, I’m hoping I might be able to make it up with my boyfriend, and there’s my dog. I don’t know what he’d do without me.",,
+35,,62 29 25 23 20,19 34 23 109 117 114 120 113 115,36A 68 84 30 96 212 217 43 1 34 222 196 15,You told me that you had been thinking about killing yourself when you took the tablets. Is this how you feel a lot?,No. I mean sometimes I do. I just feel overwhelmed and I can't face it. But most of the time I'm ok. I had been fine until the argument. And I’m not thinking about hurting myself now.,,
+29,,35 19 27 25 23 20 62,30 114 23 113 120 117 115 109,27 68 55B 212 217 30 84 15 43 96 34 36A 196 1 222,It sounds like things were really getting on top of you.,"Yeah, and I’ve never had very good self esteem. Since I’ve lost my job and my boyfriend wants me out I feel like I’m no good at anything.",,
+3,19,54 102 36A 25 20 62 23,102 109 117 23 113 114 115 120,36A 84 68 217 212 96 1 196 30 222 34 43 15,I understand that you have taken an overdose. What did you take?,Paracetamol,,
+102,,54 103 34 20 25 62 23,103 115 113 23 114 120 109 117,34 68 84 222 30 217 36A 43 15 1 96 196 212,How much?,16,,
+103,,54 104 34 25 20 62 23,104 117 114 113 120 109 23 115,34 68 84 222 30 217 36A 43 15 1 96 196 212,What dose were they?,Dunno,,
+104,,54 20 25 62 23,105 114 23 113 120 117 115 109,68 84 30 96 212 217 43 1 36A 34 222 196 15,Did you take anything else?,Some antidepressants,,
+105,,106 54 20 25 62 23,164 23 109 117 114 120 113 115,34 84 212 36A 68 222 43 1 196 217 30 96 15,Which ones?,Ummm I'm not sure. My GP prescribed them. I think it starts with an F,,
+164,,25 54 20 62 23,109 163 115 113 23 114 120 117,212 36A 84 96 217 1 68 30 196 222 15 34 43,and how much did you take of each tablet?,Ummm 6,,
+163,,54 20 25 23 62,113 109 117 114 120 115,96 15 30 217 1 43 36A 212 196 84 34 222 68,of each?,No 6 antidepressants and about 16 paracetamol,,
+106,,107 54 20 25 62 23,164 23 114 23 113 120 117 115 109,1 36A 68 96 30 217 34 212 222 84 196,Fluoxetine?,I think so,,
+107,,54 20 25 23 62,108 109 117 114 120 113 115,36A 96 34 196 222 212 217 84 30 68 1,How much did you take?,6,,
+108,,65 20 54 62 23 25 21B,109 115 113 23 114 120 117,96 15 30 217 1 43 36A 212 196 84 34 222 68,What dose are they?,20s I think,,
+65,,54 20 25 21B 23 62,110 114 23 113 120 117 115 109,34 84 212 36A 68 222 43 1 196 217 30 96 15,how long have you been prescribed them?,Um… A couple of years now,,
+109,,20 54 23 21B 25 62,110 117 23 113 114 115 120,36A 96 34 196 222 212 217 84 30 68 1,When did you take them?,Yesterday evening,,
+110,,23 25 20 54 62 25 21B,111 109 117 114 120 113 115,96 15 30 217 1 43 36A 212 196 84 34 222 68,What time specifically?,"I’m not sure, about 9 ish I think",,
+111,,54 25 62 21B 20 23,112 117 114 113 120 109 23 115,36A 96 34 196 222 212 217 84 30 68 1,Where were you?,In the bathroom,,
+112,,20 54 62 23 25 21B,113 23 109 117 114 120 115,217 1 68 222 196 30 96 36A 34 84 212,Were you alone when you took the tablets?,Yeah,,
+113,,54 20 23 21B 25 62,114 23 113 120 117 115 109,30 222 196 36A 68 96 84 212 34 217 1,Did you think anyone would find you?,Dunno,,
+114,,115 20 54 23 21B 25 62,109 117 23 113 114 120,217 1 68 222 196 30 96 36A 34 84 212,Was anyone else in the house?,"Well, my boyfriend was downstairs",,
+115,,25 62 21B 20 54 23,116 115 113 23 114 120 109 117,30 222 196 36A 68 96 84 212 34 217 1,Did you try to stop anyone finding you?,I locked the door,,
+116,,54 20 62 23 25 21B,117 120 113 23 115 109 114 117,36A 96 34 196 222 212 217 84 30 68 1,Did you tell him or anyone else that you had taken the overdose?,"Yeah, after he found me",,
+117,,25 62 21B 20 54 23,118 114 113 120 109 23 115,34 36A 68 1 96 30 217 212 222 84 196,Did you tell anyone that you intended to kill yourself?,No,,
+118,,23 62 21B,119 23 109 117 114 120 113 115,9A 212 36A 84 96 217 1 68 30 196 222 15 34 43,Why did you take the overdose?,"I don’t Know, I guess I wanted to die",,
+119,,21B 23 62,120 114 23 113 117 115 109,1 36A 68 96 30 217 34 212 222 84 196,What did you think would happen?,I’m not sure,,
+120,,23 21B 62,121 109 117 23 113 114 115 120,96 15 30 217 1 43 36A 212 196 84 34 222 68,Did you think that you had taken enough to kill yourself?,I don’t think so,,
+121,,21A 62 23,122 115 113 23 114 120 109 117,36A 96 34 196 222 212 217 84 30 68 1,How sure were you that you wanted to die?,I thought that I did when took them but I don’t know,,
+122,,62 23 21B,123 120 113 23 115 109 114 117,74-161 1 36A 68 96 30 217 34 212 222 84 196,How do you feel now about the overdose?,I feel stupid for taking it.,,
+123,,23 62 21B,124 117 114 113 120 109 23 115,30 222 196 36A 68 96 84 212 34 217 1,Do you regret it?,Yes,,
+124,,62 21B 23,125 23 109 117 114 120 113 115,212 68 1 34 36A 96 30 217 196 84 222,Did you think that the doctors would be able to save you?,I suppose so. I didn’t think it’d kill me.,,
+125,,21B 62 23,114 23 113 120 117 115 109,9A 212 36A 84 96 217 1 68 30 196 222 15 34 43,How long did you plan the overdose?,I didn’t really,,
+68,,27 96 94,99B 58 98,55B 36A 30 84 217 36A 34 68 212 196 2B,sometimes people turn to alcohol when they’re struggling to cope. Is that something you’re done?,Not really. I’d had a bit to drink yesterday though,,
+27,,28,96 90 91 89 88 94 16,55B 36A 30 84 217 36A 34 68 212 196 2B,Do you see things getting better?,"I hope they will, I’d like to get a job and sort things out with my boyfriend but its hard to know what will happen with everything going on.",,
+28,,69 142,96 91 90 94 16 89 88,74-161 2B 29 36A 34 80-79 212 222 1 68 30 217 196,How do you feel about yourself?,I feel stupid for taking the tablets. When things like this happen I just feel so pathetic. So ridiculous.,,
+69,,9B 16 42 27,87 96 91 90 88 89 94,36A 212 34 36A 2B 222 30 68 196 1 217 84,do you always feel like that about yourself?,Not always. I just don’t know why I don’t think before doing things.,,
+96,,95 91 90 142,94 88 89 16,84 34 36A 196 84 212 222 1 2B 68 30 217,How is your mood generally?,Up and down. Mostly I feel ok but with everything going on things have got a lot harder and I can get really angry and upset over little things. I just can’t seem to control how rubbish I feel sometimes. One minute I’m ok and then the next I’m incredibly depressed. I’ve always had a bit of a short temper though.,,
+95,,96 91 90 27,42 89 88 94 16,68 34 36A 212 222 30 196 1 217 2B 84,Is your mood worse at any particular time of day?,No not really. Sometimes in the evening when I’ve had a couple of drinks.,,
+90,,96 91 27,16 94 89 88 27,44 84 30 217 36A 34 68 212 196 2B,Do you still feel motivated to do things?,Not as much as I used to I guess. I just can’t face looking for another job at the moment.,,
+91,,96 90 142,89 94 16 88 27,212 80-79 34 36A 212 222 30 68 196 1 217 2B,Are there still things you enjoy?,"I like going out with my mates but I don’t get to as much, recently I just can’t afford to.",,
+89,,88 87,96 27 16 94 90 91,36A 34 84 212 222 1 68 30 217 196 2B,"Sometimes when people feel low, it affects their sleep, How are you sleeping?",I’ve always found it hard to get to sleep and then I end up having to lie in.,,
+88,,89 87,96 90 91 16 27 94,34 36A 212 68 222 30 196 1 217 84 2B,How’s your appetite?,Its normal,,
+88i,,87 89,16 27 94 96 90 91,212 68 34 36A 222 30 196 1 217 84 2B,What’s normal for you?,"I tend to skip breakfast, have a couple of meals and pig out on packs of crisps.",,
+87,,88 89 90 91,129 94 16 142,2B 68 36A 96 30 217 34 212 222 84 196,Are you still able to concentrate on things?,Yeah I like watching films,,
+128,,94 16 27,2 96 90 89 91 88,34 80-79 212 222 1 68 30 217 196 2B,It sounds like you don't feel that good about yourself at the moment.,"No, not really",,
+94,,93 92,91 89 16 129 88 94 27,84 36A 34 84 212 222 1 68 30 217 196,Have you ever felt very high in mood?,"Not really, my mood goes up and down but not very high.",,
+93,,92 94,16 142 96 90 91 89 88,34 2B 212 222 1 68 30 217 196 36A,Have you ever felt like your thoughts are racing?,No,,
+92,,93 94,96 90 89 88 91 16 27,212 68 34 36A 222 30 196 1 217 84,Do you feel you have any special powers or talents?,"Not really, I’m usually pretty useless at most things.",,
+16,,17 16 27 94,9B 129 90 91 89 88,74-161 84 30 217 36A 34 68 212 196,How do you normally cope with stress?,I don’t. I can get pissed off really easily and upset and then I do stupid things.,,
+17,,42 96 90 91,9B 27 89 88 94,2A 68 96 36A 30 217 34 212 222 84 196,What do you mean by that?,"You know, I just act without thinking, shouting or hurting myself. Like yesterday",,
+42,,16 9B 15,129 90 91 89 88 94 27,80-79 36A 34 84 212 222 1 68 30 217 196,"Sometimes people describe a feeling of emptiness, is that something you can relate to?",Not really.,,
+9A,9B,15 42 16,96 90 91 89 88 94 27,21B 2A 34 36A 68 212 222 30 196 1 217 84,It sounds like that was quite an impulsive decision.,"Yeah, I’ve always been like that. Acting how I want to at the time and not really thinking through what will happen next. Like yesterday.",,
+9B,9A,15 42 16,96 90 91 89 88 94 27,21B 2A 34 36A 68 212 222 30 196 1 217 84,Do you often do things without thinking through the consequences?,"Yeah, I’ve always been like that. Acting how I want to at the time and not really thinking through what will happen next. Like yesterday.",,
+15,,9B 16 42,129 90 91 89 88 94 27,30 217 36A 34 68 212 196,Have you found it hard to maintain relationships?,"My relationships with men have always tended to be a bit up and down and people do let me down a lot more than other people it seems but I do have friends and things were going ok with my boyfriend, he can just be really unsupportive sometimes.",,
+129,,94 16 88 89,96 142 90 91,84 36A 34 84 212 222 1 68 30 217 196,Are you depressed at the moment?,"Well, I feel pretty unhappy",,
+142,,143 27 96 91 90,16 89 88 94,34 2B 212 222 1 68 30 217 196 36A,Are you feeling hopeless?,Sometimes I do,,
+143,,96 90 91 89 88 94 16 27,55B 7 10 50,36A 34 80-79 212 222 1 68 30 217 196,Can you tell me more about that?,I’d like to get a job and sort things out with my boyfriend but its hard to know what will happen with everything going on.,,
+84,,83,82 78 77,86 68 36A 96 30 217 34 212 222 84 196,"Sometimes, when people are stressed they start to experience unusual things.. . .",Hmm,,
+86,,85,80-79 77 78 82,96 30 1 217 34 36A 68 212 222 84 196,Do you ever feel like people are plotting against you?,Sometimes I feel like the whole world is against me.,,
+85,,82,34,34 68 96 1 36A 30 217 212 222 84 196,Go on. . .,"Oh, just with everything always going wrong. But I know its just bad luck. I don’t think I’m in a conspiracy. I’m not mad.",,
+83,,78 82 77 86,80-79,82 34 96 36A 1 68 30 222 84 217 212 196,Is that something which has happened to you?,I don’t know what you mean.,,
+82,79,81 86,78 77,68 217 30 34 36A 96 1 84 196 222 212,Are there ever times that you hear things that nobody else can hear?,No,,
+81,167t2 167t1,78 77,86 82,68 96 30 36A 1 222 212 196 217 34,Or do you ever see things that other people have said aren’t there?,No,,
+80-79,,166t1,167t1,34 36A 196 68 222 1 96 212 217 30,Do you ever hear voices?,"What, like your voice?",,
+79,82 80-79,166t1,167t1,34 36A 196 68 222 1 96 212 217 30,No I mean voices that other people can’t hear?,No,,
+166t1,81,133,167t2,132,Or see things that other people don’t see?,"No, Are we almost done here?",,
+167t2,82 167t1,81 86,78 77 76,68 217 30 34 36A 96 1 84 196 222 212,I’m just asking because sometimes people do have these experiences when they’re feeling stressed,"No, sorry, I havn’t heard any voices or seen anything",,
+167t1,82 81 167t2,78 77,86 82,68 96 30 36A 1 222 212 196 217 34,I’m just asking because sometimes people do have these experiences when they’re feeling stressed,"No, sorry, I havn’t heard any voices",,
+78,,82 86 81,77,217 68 34 30 1 96 212 222 36A 196,Do you think the TV or radio has a special message for you?,No,,
+77,,76,78 86 82,1 36A 212 217 68 34 196 96 222 30,Do you ever feel like someone is taking thoughts from your mind?,No,,
+76,,75,82 86 78,222 34 196 217 68 36A 212 96 30 1,do you feel like people are putting thoughts into your mind?,No,,
+75,,86 82,78,68 36A 222 96 1 196 212 30 34 217,Or broadcasting your thoughts so other people can know what you’re thinking?,No,,
+30,175,71 178 230B 221 219 43,31,34 36A 196 96 84 222 212 68 1,Is there anyone you can talk to about what you’re going through?,There’s my mum but she has her own problems. I’ve got some friends but we don’t normally talk about stuff like this.,,
+31,,33B,32,217 230B 219 43 36A 212 34 196 84 68 1 222 96,Tell me about your mum’s problems,"Well she’s having some problems with her neighbours, just being really noisy and stuff.",,
+32,,33A,33C,33B,Go on…,I really don’t see how this is relevant.,,
+33A,33b 33c,178 230B 43 219,71,34 196 212 1 84 222 68 96 36A,Sometimes the problems of those close to us can have an impact on us too /,"To be honest, and it might sound a bit selfish but I’ve got enough of my own problems at the moment without having to worry about hers too.",,
+33B,33a 33c,178 230B 43 219,71,34 196 212 1 84 222 68 96 36A,That sounds frustrating,"To be honest, and it might sound a bit selfish but I’ve got enough of my own problems at the moment without having to worry about hers too.",,
+33C,33b 33c,178 230B 43 219,71,34 196 212 1 84 222 68 96 36A,Sorry I didn’t mean to pry.,"To be honest, and it might sound a bit selfish but I’ve got enough of my own problems at the moment without having to worry about hers too.",,
+71,,232 219 221 43,217 230B,57 55B 34 96 68 36A 212 84 34 222 196,It sounds like you have a lot on your plate.,"Yes and its not like anyone wants to listen, my boyfriend was the only person I had and I don’t even have him anymore. I just feel terrible.",,
+217,,218  219 43 221,232 55B,57 230B 34 96 196 222 36A 212 84 68,Who are you living with at the moment?,"My boyfriend, but now he wants me out.",,
+218,,219,30,55B 230B 212 84 36A 96 34 222 68 196 1,Is there anyone else living with you?,No. Its just the two of us.,,
+232,,178 230B,30 219 43,55B 212 196 36A 96 68 34 1 222 84,How long have you been together?,"A year, on and off.",,
+219,220,221,30 178 230A 43,196 212 36A 96 68 34 1 222 84,Do you have much contact with the rest of your family?,"I see my younger sister occasionally, but she moved to London after she got married last year. My older sister lives closer but we’ve never really got on.",,
+221,,219 30 43,217 230B,196 1 222 36A 34 212 84 68 96,Do you have any children?,No,,
+175,,176,177,178 196 222 212 68 1 96 34 36A 84,Do you have much social support,What’s that?,,
+176,,178 230A 219,30 43,55B 96 34 212 196 36A 68 222 84,Friends and family,I had my boyfriend till yesterday and I’ve got a few mates and there’s my mum and sister,,
+177,,178 230A 219,30 43,34 36A 1 84 96 196 212 68 222,People who support you.,I don’t really talk to people about what’s going on.,,
+178,,230A, 221 219 43 30,57 55B 222 84 36A 34 212 96 196 68,Are you living alone?,I don’t know where I’ll be living now. My boyfriend kicked me out yesterday,,
+230A,230B,231,221  43 219 30,196 222 96 84 68 1 36A 196 212 34,What do you plan to do now?,"I don’t know. Really I want to get back with my boyfriend. Our relationship has always been a bit up and down, hopefully he’ll take me back. I’m going to call him in a minute and explain.",,
+230B,230A,231,221  43 219 30,196 222 96 84 68 1 36A 196 212 34,You told me that you had been living with your boyfriend but he asked you to leave. What do you plan to do now?,"I don’t know. Really I want to get back with him. Our relationship has always been a bit up and down, hopefully he’ll take me back. I’m going to call him in a minute and explain.",,
+231,,43,219 30,55B 84 34 222 196 68 36A 96 212,What if that doesn’t work out?,Then I don’t know what I’ll do. I have a friend who would probably put me up for a bit but I havn’t got any money for rent and I can’t stay forever. I don’t know.,,
+43,,178 230A 219 30 221,57,7 196 96 222 68 212 84 34 36A,Are you working at the moment?,"No, not anymore, I just lost my job.",,
+146,,30 219 217 45,221,44 36A 68 222 196 1 212 84 96 34,When?,Last month,,
+34,,72,36B,40 41 96 68 212 1 84 217 196 30,Have you ever seen a psychiatrist in the past?,"I saw a psychiatrist after my last overdose, and it was really helpful talking things through. He referred me for group therapy which was also supportive.",,
+72,40,64,36B,41 68 1 96 222 196 84 217 212 30,What sort of group therapy?,It was about improving your mood,,
+64,40,41,36B,30 1 212 96 84 222 217 196 68,Was it Cognitive behavioural therapy?,"I don’t know, I haven’t heard of that.",,
+36A,36B,37 38 39A,34,68 212 196 217 1 222 96 84 30,Have you ever tried to harm yourself before?,"Yes, but Not for a long time. When I was a teenager I used to cut myself but not so I’d die, just to relive some of the stress. Then a couple of years ago I took an overdose just after my ex left me.",,
+36B,36A,37 38 39A,34,68 212 196 217 1 222 96 84 30,You mentioned that you’ve tried to harm yourself in the past?,"Yes, but Not for a long time. When I was a teenager I used to cut myself but not so I’d die, just to relive some of the stress. Then a couple of years ago I took an overdose just after my ex left me.",,
+37,,66,38 39B,41 34 40 96 196 1 84 30 68 217 212 222,Could you tell me a bit more about that?,"My ex boyfriend was a real bastard but I still wanted to be with him. In the end he left me and went off with a friend of mine. I was really upset and I took the tablets then. I just didn’t see how I could go on without him./ took the tablets, paracetamol, about 40 of them. Then I got scared and told my friend who called the ambulance.",,
+66,,39B 38,34 40 41,30 217 1 84 222 212 196 68 96,That sounds really upsetting,"Yeah, and I felt so embarrassed, having to go to hospital and everything",,
+38,,37 39A,41 34 40,96 1 196 217 34 30 212 96 36A 84,Can you remember exactly when that was,"Umm 2 years ago, around October time.",,
+39A,39B,40 41,38,217 196 222 30 84 1 212 68 96,Did you end up in hospital then?,"Um, Yeah, I took more last time. I needed to come in to get a drip to stop the paracetamol hurting my liver. I saw a psychiatrist then and it was really helpful talking things through.",,
+39B,39A,40 41,38,217 196 222 30 84 1 212 68 96,Can you tell me about that?,"Um, Yeah, I took more last time. I needed to come in to get a drip to stop the paracetamol hurting my liver. I saw a psychiatrist then and it was really helpful talking things through.",,
+40,,41,72,36B 84 212 34 30 196 217 96 36A 1,Have you seen a psychiatrist at any other time?,"No, but after my last overdose I did go for some group therapy which was helpful .",,
+41,,34 40,36A,,Have you ever seen your GP about these difficulties?,Yeah. He was the one who prescribed the antidepressant. It hasn’t made much difference though.,,
+99A,99B,98 97 52 48 301 51 59,58,97 96 54 25B 84 212 34 30 196 217 96 36A 1,You mentioned that you’d had a bit to drink when you took the tablets yesterday.,"Yeah we’d had a couple of bottles of wine between us. I have to say, I probably had most of that.",,
+99B,99A,98 97 52 48 301 51 59,58,97 96 54 25B 84 212 34 30 196 217 96 36A 1,How much had you drunk yesterday?,"Yeah we’d had a couple of bottles of wine between us. I have to say, I probably had most of that.",,
+68,,99B 97 126 48 301 52,58 59 56,98 54 96 212 1 84 30 196 34 36A 217,sometimes people turn to alcohol when they’re struggling to cope. Is that something you’re done?,Not really. I’d had a bit to drink yesterday though,,
+58,,99B 98 97 52 48 301 126,59,2A 36A 96 34 212 1 84 217 196 30,Had you taken any drugs before the overdose?,"No, nothing like that.",,
+98,,52 48 301 51,99B,97 30 34 96 212 84 217 36A 1 196,How much do you normally drink.,"I don’t drink that often, only about once a week, but when I do I can drink a bit much, which I probably shouldn't. Maybe two bottles of wine and a couple of shots if I’m out.",,
+97,,99A 301 48 52 51,127,2A 96 34 1 36A 196 84 217 212 30,Do you think alcohol affects your mood?,"I don’t know. Last night I think it did. I probably wouldn’t have gone for the tablets if I hadn’t had a drink. I’m not an alcoholic, but maybe it's not great when I'm feeling like this.",,
+52,,51,48 301,59 34 1 96 36A 196 84 217 212 30,have you ever tried to cut down how much you're drinking,"No, it's not like I drink every day.",,
+51,,47,49,126,do you get withdrawal symptoms?,What do you mean?,,
+47,51,301 48 52,56 59 58,98 99B 97 30 1 212 96 84 36A 217 196 34,like a hangover.,"Yeah, sometimes I get a headache and feel tired after a night out.",,
+49,51,301 48 52,56 59 58,97 99B 98 34 212 196 217 1 36A 96 84 30,"Don't worry, you'd know if you'd had withdrawral symproms.",Ok.,,
+126,51,52 48 301,59 56 58,98 99B 97 96 196 1 84 30 34 217 212 36A,"Sometimes people experience feeling sick, sweating and shaking after they've stopped drinking.",I usually feel a bit hungover but not like that.,,
+48,,52 126 301,56 59 58,97 99B 98 217 196 36A 30 84 1 212 34 96,do you feel guilty about how much you drink.,"No, it's not like I'm an alcoholic",,
+301,,126 48 52,59 56 58,98 99B 97 30 217 1 84 36A 212 196 34 96,Do you feel annoyed when people criticise your drinking?,people don't criticise my drinking.,,
+127,,99A 48 47 52 51,2A,96 1 217 84 34 196 30 212 96 36A,I can get you some information about safe drinking if you like.,"Yeah, I’d like that.",,
+59,,56 98 99B 52 97 48 301 51,58,34 217 30 196 1 96 84 212 36A,Do you ever use drugs that arn't prescribed for you.,"My mum sometimes used to give me some of her temazepam to help me sleep, it was really good actually, but she hasn't had them for a while now.",,
+56,,53 56,98 99B 52 97 48 301 51,84 212 30 196 36A 1 34 96 217,do you use illegal drugs?,No. I smoked weed a few times when I was a teenager but that's all.,,
+53,,59 56,97 99B 98 52 48 301 51,212 96 1 84 30 196 34 36A 217,or legal highs?,No I don't use that sort of stuff.,,
+147,,98,59,43 30 34 96 212 84 217 36A 1 196,Are you abusing drugs or alcohol?,No,,
+212,,213 148,214,34 36A 217 196 222 30 84 1 68 96,Do you have any problems with your physical health?,"I had glandular fever when I was 16, that’s about it.",,
+213,,148,214,204 206 222 34 217 30 196 1 96 84 68 36A,Apart from glandular fever have you had any other health problems.,"No, not really.",,
+214,,215,212 148 213,34 222 30 217 1 84 36A 68 196 96,Are you on any medication?,Just the fluoxetine.,,
+215,,216,212 213 148,36A 30 196 222 1 84 68 34 96 217,Do you always remember to take them?,Yeah I do.,,
+216,,212 213,148,34 1 196 217 222 30 68 96 36A 84,Do you take any contraceptives?,"No, I have the implant.",,
+148,,214,212 213,222 84 68 34 30 196 217 96 36A 1,Do you suffer from chronic pain?,I don’t think so,,
+222,,223 224 144,226,191 96 217 84 68 30 212 34 36A 1,Has anyone in your family had any problems with their mood?,"I think my mum had depression after dad left, but not apart from that.",,
+223,,224 144,226,34 96 84 68 196 30 212 217 36A 1,Is there anyone in your family with any other problems with their mental health?,No,,
+224,,144,222 226,36A 34 96 68 84 217 196 1 212 30,Has anyone in your family tried to harm themselves as far as you are aware?,No,,
+226,,222 223 144,227,220 217 84 68 30 96 212 34 196 36A 1,Is there any one in your family who has any other health problems.,"My nan died of cancer, but nothing else",,
+227,,144 222 223,228,212 84 68 196 34 30 217 96 36A 1,What sort of cancer?,Breast cancer,,
+228,,222 223,224,6 220 212 68 84 217 34 196 96 1 30 36A,How old was she?,"I don’t know, like eighty something. It happened two years ago now.",,
+144,,222 223,224,36A 34 96 212 217 84 68 30 196 1,Has anyone in your family tried to kill themselves?,No,,
+188,,191 193,189 196 200 203 204,220 30 217 84 222 68 34 212 96 36A 1,Are your parents still together?,"No, they’re divorced.",,
+189,188,220 196 189 200 203 204 233,193 198 191,217 96 30 68 1 84 222 212 34 36A,What is your relationship with your mum like?,It’s ok. I used to be a bit of a daddys girl really until my parents separated.,,
+220,,188,196 189 204 203 200,219 30 222 36A 96 34 68 1 84 217 212,Who else is in your family?,Apart from my parents? There’s my two sisters.,,
+191,,192 193,204 196 189 204 203 200,224 222 30 34 96 68 84 217 36A 1 212,How old were you when that happened?,Eleven. I’d just started secondary school.,,
+192,,193,204,206 N,What was that like?,"What do you mean? Them divorcing, or school?",,
+193,192,194,198 204 189 200 202 203,222 34 1 96 36A 212 84 217 68 30,Can you tell me about your parents separating? (NO B),"Hmm, my parents used to argue a lot beforehand but no one wants to see their parents separate do they. I wanted to live with my dad but he moved in with this other woman and we could only visit. I saw him a fair bit though, mostly at weekends until he moved away.",,
+194,,195,198 204 200 202 203,217 34 1 96 36A 212 84 217 68 30,He moved away?,"Yeah, he went to Spain a few years ago now. I’ve been out there a couple of times but, I don’t know, he doesn’t bother to come to see me. It’s his girlfriend. She doesn’t want him seeing us.",,
+195,,198 204 200 202 203,189,30 1 68 96 84 36A 217 212 34,Tell me about his girlfriend.,"I don’t really know much about her, other than her being a homewrecker. Like I say she took my dad all the way to Spain to get away from us, so it’s not like we’re close, you know.",,
+196,,197,204 188 202 203,200 1 217 84 34 212 30 68 96 36A,What was life like for you growing up for you?,Alright.,,
+197,188,193 198,189A 202 203 200 204,30 34 68 212 217 1 36A 96 84,Alright?,"Yeah, well my parents separated when I was 11. I was always closer to my dad, so that was hard.",,
+198,,199,202 203 200 204 189,36A 96 212 1 84 30 34 217 68,You mentioned that your parents argued. Were they ever violent to each other.,"No, nothing like that.",,
+199,,200,189 188 202 204 203,217 212 36A 30 84 1 68 34 96,Or to you?,"My mum smacked me a couple of times when I was a kid, but nothing else.",,
+200,,202,201 196 204 189 188,203 36A 30 217 1 84 68 212 34 96,Has anyone ever been violent towards you.,My ex-boyfriend was. But not otherwise.,,
+201,,202,233 204 196 189,203 221 30 217 212 36A 1 84 68 34 96,Your ex-boyfriend?,"Yeah, not the person who I’m with now but a previous guy. He hit me a few times, but I was too scared to report it. I havn’t seen him since we broke up a couple of years ago now. My current boyfriend would never do that.",,
+202,,200,203 189 196 204,1 212 217 34 30 68 96 36A 84,Have you ever been in trouble with the police?,No,,
+203,,200 202,204 196 189,68 96 34 217 30 212 1 84 36A,Did anyone ever do anything sexual towards you that you didn’t want them to?,I’ve never been raped or anything. I guess there’s been a couple of times where I’ve been really drunk and done things that I wished I hadn’t but nothing that I didn’t agree to at the time.,,
+204,192,205 206,208 202 203 189 200,189 84 68 34 30 212 217 96 36A 1,And what about school? How was school for you?,"School was alright. I did alright in my GCSEs, went to college.",,
+205,,206,210 189 200 202 203 233,15 30 96 68 1 84 212 34 36A 217,How did you get on with the other kids?,"Fine, I had a couple of good mates",,
+206,192,191,207 208 200 203 202 189 204,194 30 36A 96 34 68 1 84 217 212,We’re you ever bullied?,"Ummm, well there was one girl who used to pick on me. Just after my dad left. My mum couldn’t afford some of the stuff that other kids had. She used to call me names and that until I stood up for myself.",,
+207,,208 205,200 202 203 189,15 217 30 34 96 68 84 217 36A 1 212,You stood up for yourself?,I hit her and then she never bothered me anymore.,,
+208,,209,206 233 189 200 202 203,210 43 34 1 96 36A 212 84 217 68 30,How did you do in your exams?,"OK, I got 8 GCSEs mostly Bs and Cs and a D in French. Then I went to college.",,
+209,,210,205 206 202 200 203 233,213 1 68 96 84 36A 217 30 34,How did that go?,"Well, I started doing A-Levels, but I got glandular fever in my first year so I couldn’t sit my exams. I’d missed too much to catch up and I didn’t want to start again so I did a BTEC in media instead.",,
+210,,211,203 189 200 202 204 233,43 1 217 84 34 212 30 68 96 36A,What did you do after that?,"I really wanted to work in TV but it’s basically impossible without experience. So I ended up working in a sports bar, for like a month, but the manager was a complete pervert so I quit.",,
+211,,233,202 200 203 189 204,7 8 68 96 84 36A 217 30 34,Have you worked anywhere else since?,"Yeah, then I worked in a café, I was there for a couple of years, but that closed down. Then there was my most recent job, in the café in the bowling alley, and I basically was fired",,
+233,,234,189 196 200 203 202 204,15 30 34 68 212 217 1 36A 96 84,Is this your first serious relationship?,"No, I’ve been in a few relationships in the past. It always starts alright and then they turn out to be bastards.",,
+234,,196,188 200 202 203 204 233,217 30 96 212 1 84 34 68 36A,Can you tell me a bit more about your serious relationships?,I guess I’ve had three relationships that you might call serious. One at college. He left me for someone else. Then I was with someone for a couple of years but he could be really aggressive. Mostly shouting but he hit me a couple of times. I don’t know why I stayed with him but I did until he left me. And then there’s my boyfriend now.,,
+251,,19 109 62 34,54 149 120 124,23 24 112 21,Just going back to the overdose there are a couple of things I’d like to clarify,,,
+74-161,,,,,"Taking an overdose was a really stupid thing to do, you could have died and you’ve wasted a lot of people’s time, including mine",,Force 161,
+130,,,,,"Thanks very much for speaking to me today, I know it can be difficult talking to someone you don’t know but I do appreciate you sharing this with me.",,End,
+132,,,,,Thank you for speaking to me. Is there anything else you want to tell me?,I don’t think so.,End,
+133,,,,,I think I’ve asked you everything I need to know.,,End,
+F1,,F2 F3 F4,,,,,,
+F2,,,,,I have to ask you these things so please just answer the questions,,,
+F3,,,,,"Sorry, I didn't mean to make it feel that way",,,
+F4,,,,,Do you want to see someone else instead?,,,
