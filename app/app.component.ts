@@ -204,6 +204,22 @@ export class AppComponent {
             err => console.error(err),
             () => console.log('done')
           );
+        this.http.get('key_areas.csv')
+          .subscribe(
+            data => {
+              this.key_areas = spreadsheet_to_areas(Papa.parse(data.text()).data.slice(1));
+            },
+            err => console.error(err),
+            () => console.log('done')
+          );
+        this.http.get('feedback.csv')
+          .subscribe(
+            data => {
+              this.info = spreadsheet_to_areas(Papa.parse(data.text()).data.slice(1));
+            },
+            err => console.error(err),
+            () => console.log('done')
+          );
     }
     choose_option(opt_id) {
         this.choices.push(opt_id);
