@@ -153,12 +153,19 @@ function area_feedback(area, choices)
           </p>
 
         <h2>Time taken</h2>
-        <p>You spent .... minutes completing the consultation.  This is longer than it would take you in practice as you don't take as much thinking time between questions in practice.  </p>
+        <p>You spent {{ticks}} minutes completing the consultation.  This is longer than it would take you in practice as you don't take as much thinking time between questions in practice.  </p>
         <h1>What should I do next?</h1>
-        <ul><li>To learn more about self harm and it's management, complete the elearning module on self harm.</li>
-        <li>Assess a patient presenting following an episode of self harm with supervision from the liaison psychiatry team.</li>
-        </ul>
-        <h1>Student Mental Health</h1>
+        <ul>
+          <li>Document a risk assessment for this patient - how likely do you think it is that she will harm herself in future.  What factors increase or decrease her risk? Check out your psychiatry PRN textbook to find out more about risk assessment.</li>
+          <li>Discuss how you would manage this patient with someone on your psychiatry team.  Find out what services may be available to support your management plan.</li>
+          <li>Assess a patient presenting following an episode of self harm with supervision from the psychiatry team.</li>
+          <li>To learn more about self harm and it's management, complete the elearning module on self harm.</li> 
+          </ul>
+          
+      <h1>We need your feedback!</h1>
+          <p>How did you find using this virual patient?  Please do report any problems you encountered so we can fix them <a href="https://docs.google.com/forms/d/e/1FAIpQLScfaOiCn-B63HXo_FTmv_u62KOoOkdK_LjcT9q30jA9ZZ9bKg/viewform?usp=sf_link" target="blank">here</a>.  Please also let us know whether you have found completing the virtual patient useful by <a href="https://docs.google.com/forms/d/e/1FAIpQLScfaOiCn-B63HXo_FTmv_u62KOoOkdK_LjcT9q30jA9ZZ9bKg/viewform?usp=sf_link" target="blank">completing the brief feedback questionnaire</a>
+
+     <h1>Student Mental Health</h1>
         <p>Clearly this simulated patient scenario involves some upsetting material. If you have been affected by this and would like to talk to someone please contact the student support service or see the student support page <a href="http://www.bristol.ac.uk/students/wellbeing/">here</a> for details of services, including confidential helplines, which you may find helpful. </p><p>If you have concerns about another student please speak to a member of staff or <a href="http://www.bristol.ac.uk/students/wellbeing/help-someone/">follow this link</a> to find out about how you can help.</p>
 
 
@@ -194,7 +201,7 @@ export class AppComponent {
                 "options": [[], [], []]
             }};
         this.current = "0";
-        let timer =  Observable.timer(1000, 1000);
+        let timer =  Observable.timer(1000, 60000);
         timer.subscribe(t=>this.ticks = t);
 
         this.http.get('script.csv')
