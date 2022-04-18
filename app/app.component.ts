@@ -171,7 +171,6 @@ export class AppComponent {
     script;
     choices;
     excludes;
-    use_gdocs;
     feedback;
     questions_feedback;
     key_areas;
@@ -181,7 +180,6 @@ export class AppComponent {
     areas_not_covered;
     constructor(private http: Http) {
         this.ticks = 0;
-        this.use_gdocs = true;
         this.choices = [];
         this.excludes = [];
         this.key_areas = [];
@@ -196,31 +194,16 @@ export class AppComponent {
         let timer =  Observable.timer(1000, 1000);
         timer.subscribe(t=>this.ticks = t);
 
-        if (this.use_gdocs) {
-            var comp = this;
-            Tabletop.init( {
-                key: '1IvHzhdow5H2pAHgFk59NbZ0KKxKijxquTQvfUAxgno0',
-                callback: function(data, tabletop) {
-                    console.log(data);
-                    comp.script = spreadsheet_to_questions(data.Sheet1.elements);
-                    comp.key_areas = spreadsheet_to_areas(data.KeyAreas.toArray());
-                    comp.info = spreadsheet_to_areas(data.Feedbk.toArray());
-                    console.log(comp.script);
-                    console.log(comp.key_areas);
-                    console.log(comp.info);
-                }});
-        } else {
-            this.http.get('script.csv')
-              .map((res:Response) => parse_csv(res.text()))
-              .subscribe(
-                data => {
-                    this.script = data;
-                    console.log(this.script);
-                },
-                err => console.error(err),
-                () => console.log('done')
-              );
-        }
+        this.http.get('script.csv')
+          .map((res:Response) => parse_csv(res.text()))
+          .subscribe(
+            data => {
+                this.script = data;
+                console.log(this.script);
+            },
+            err => console.error(err),
+            () => console.log('done')
+          );
     }
     choose_option(opt_id) {
         this.choices.push(opt_id);
