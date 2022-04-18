@@ -173,6 +173,7 @@ export class AppComponent {
     excludes;
     use_gdocs;
     feedback;
+    questions_feedback;
     key_areas;
     info;
     ticks;
