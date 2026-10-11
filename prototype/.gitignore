@@ -1,0 +1,7 @@
+node_modules/
+.cache/
+*.log
+local-settings.json
+.private/
+*.mp4
+*.png

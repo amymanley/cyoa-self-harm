@@ -1,0 +1,8 @@
+{
+  "description": "Alternative student wording. Contexts are current clip IDs; omitted contexts means any context in which this clip is eligible. These phrases select existing replies only.",
+  "entries": [
+    {"id":"2B","contexts":["0"],"phrases":["What brought you here today?","What brings you here today?","What has brought you here?","Why have you come to hospital today?","What brought you into hospital?","What led to you coming here today?","What happened that brought you to hospital?"]},
+    {"id":"1","contexts":["0"],"phrases":["How are you today?","How are you?","How are you doing today?","How are you feeling today?","How have you been?","How are things with you?","Can you tell me what has been happening?","What's been going on for you?"]},
+    {"id":"4","phrases":["There is no rush, take as long as you need","Take as much time as you need","We have time, there is no hurry","It's okay, take your time"]}
+  ]
+}
