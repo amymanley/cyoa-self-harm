@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Virtual Patient · Consultation practice</title><link rel="stylesheet" href="/style.css"><script type="module" src="/app.js"></script></head>
+<body>
+  <header><a class="brand" href="/" aria-label="Virtual patient home"><span class="mark">vp</span><span>Virtual Patient<small>CONSULTATION PRACTICE</small></span></a><span class="prototype">LOCAL PROTOTYPE</span></header>
+  <main>
+    <div class="consultation-actions"><button id="restart" class="quiet">Start again ↺</button><a class="wellbeing-button" href="https://www.bristol.ac.uk/students/support/health/mental-health-support/" target="_blank" rel="noopener noreferrer" aria-label="Get Wellbeing Support (opens in a new tab)">Get Wellbeing Support</a></div>
+    <section class="intro"><div><p class="eyebrow">PSYCHIATRY · SELF-HARM ASSESSMENT</p><h1>A conversation with Miss Smith</h1><p class="subtitle">You are a junior doctor speaking with Miss Smith following an episode of self-harm.<br>Explore her experience and concerns, then review the areas you covered.</p></div></section>
+    <div class="layout">
+      <section class="consultation" aria-label="Patient consultation">
+        <div class="video-stage"><video id="video" controls playsinline hidden aria-label="Patient response video"></video><div id="video-placeholder"><div class="portrait" aria-hidden="true">MS</div><p id="placeholder-title">Patient video</p><span id="placeholder-detail">Connecting to your local consultation…</span></div><span id="clip-label" class="clip-label">CLIP 0</span></div>
+        <details id="patient-response" class="transcript"><summary>Patient response</summary><p id="patient-line">Loading…</p></details><p id="video-error" class="video-error-notice" hidden>We could not play this clip. Open Patient response to read the original transcript.</p>
+      </section>
+      <section class="question-panel" aria-label="Consultation questions">
+        <div class="question-area"><div class="question-heading"><h2>Your next question</h2><span id="mode" class="mode">Checking connection</span></div><p id="mode-help" class="hint"></p><form id="question-form"><label class="sr-only" for="question">Question for the patient</label><textarea id="question" maxlength="1000" rows="2" placeholder="What would you like to ask Miss Smith?"></textarea><div class="input-footer"><span>One question at a time</span><button id="ask" type="submit">Ask patient <span aria-hidden="true">↗</span></button></div></form><p id="message" role="status" aria-live="polite"></p><details id="scripted"><summary>Explore with a scripted question</summary><div id="options" class="options"></div></details></div>
+        <div class="question-area"><details id="ending-choices"><summary>End the consultation</summary><div id="endings" class="options"></div></details></div>
+        <div class="review-action"><button id="review" class="review">Review consultation →</button></div>
+      </section>
+    </div>
+    <section class="history"><div class="section-top"><h2>Conversation so far</h2><span id="turn-count">0 questions</span></div><div id="history"><p class="hint">Your questions and the patient’s original replies will appear here.</p></div></section>
+    <footer>Educational prototype · Scripted simulation, not a clinical advice service.<span>AI selects clips; it does not write patient responses.</span></footer>
+  </main>
+  <dialog id="feedback-dialog"><div class="review-toolbar"><a class="wellbeing-button" href="https://www.bristol.ac.uk/students/support/health/mental-health-support/" target="_blank" rel="noopener noreferrer" aria-label="Get Wellbeing Support (opens in a new tab)">Get Wellbeing Support</a><button id="close-feedback" class="quiet" aria-label="Close review">Close ×</button></div><p class="eyebrow">REFLECT ON YOUR CONSULTATION</p><h2>What did you explore?</h2><p class="hint">Coverage reflects scripted clip choices, not a validated assessment of clinical competence.</p><div id="feedback-content"></div></dialog>
+</body></html>
